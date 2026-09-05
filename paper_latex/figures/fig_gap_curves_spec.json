@@ -1,0 +1,170 @@
+{
+  "type": "panel",
+  "title": "Accuracy Gap Curves Used for the Crossover Test",
+  "aspect": "21:9",
+  "ncols": 2,
+  "panels": [
+    {
+      "type": "line",
+      "title": "TweetEval",
+      "xlabel": "Training-set size n",
+      "ylabel": "Accuracy gap vs. TF-IDF+LR",
+      "ylim": [
+        -0.15,
+        0.1
+      ],
+      "logx": true,
+      "series": [
+        {
+          "label": "BERT-tiny",
+          "x": [
+            50,
+            100,
+            200,
+            500,
+            1000
+          ],
+          "values": [
+            -0.053,
+            -0.112,
+            -0.131,
+            -0.092,
+            -0.043
+          ]
+        },
+        {
+          "label": "DistilBERT-trunc8",
+          "x": [
+            50,
+            100,
+            200,
+            500,
+            1000
+          ],
+          "values": [
+            -0.059,
+            -0.108,
+            -0.036,
+            -0.049,
+            -0.039
+          ]
+        },
+        {
+          "label": "DistilBERT-trunc16",
+          "x": [
+            50,
+            100,
+            200,
+            500,
+            1000
+          ],
+          "values": [
+            0.009,
+            0.016,
+            0.015,
+            0.073,
+            0.069
+          ]
+        },
+        {
+          "label": "TF-IDF+LR parity",
+          "x": [
+            50,
+            100,
+            200,
+            500,
+            1000
+          ],
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "line",
+      "title": "Rotten Tomatoes",
+      "xlabel": "Training-set size n",
+      "ylabel": "Accuracy gap vs. TF-IDF+LR",
+      "ylim": [
+        -0.15,
+        0.1
+      ],
+      "logx": true,
+      "series": [
+        {
+          "label": "BERT-tiny",
+          "x": [
+            50,
+            100,
+            200,
+            500,
+            1000
+          ],
+          "values": [
+            -0.033,
+            -0.038,
+            -0.05,
+            -0.038,
+            -0.047
+          ]
+        },
+        {
+          "label": "DistilBERT-trunc8",
+          "x": [
+            50,
+            100,
+            200,
+            500,
+            1000
+          ],
+          "values": [
+            0.007,
+            0.005,
+            0.03,
+            0.027,
+            0.016
+          ]
+        },
+        {
+          "label": "DistilBERT-trunc16",
+          "x": [
+            50,
+            100,
+            200,
+            500,
+            1000
+          ],
+          "values": [
+            0.052,
+            0.091,
+            0.086,
+            0.083,
+            0.076
+          ]
+        },
+        {
+          "label": "TF-IDF+LR parity",
+          "x": [
+            50,
+            100,
+            200,
+            500,
+            1000
+          ],
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ]
+}

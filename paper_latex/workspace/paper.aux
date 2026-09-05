@@ -1,0 +1,72 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{Devlin2019,Sanh2019}
+\citation{Poech2022}
+\citation{Li2020}
+\citation{Shanto2026}
+\citation{Bucher2024}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overview of the study design: a training-size sweep across three deliberately weakened transformer variants against a TF-IDF+LR baseline manufactures genuine accuracy crossovers, which are then used to test the Good-Turing/Chao1 label-light coverage predictor's calibrate-on-one-pair, predict-on-another protocol.}}{3}{figure.1}\protected@file@percent }
+\newlabel{fig:pipeline}{{1}{3}{Overview of the study design: a training-size sweep across three deliberately weakened transformer variants against a TF-IDF+LR baseline manufactures genuine accuracy crossovers, which are then used to test the Good-Turing/Chao1 label-light coverage predictor's calibrate-on-one-pair, predict-on-another protocol}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
+\citation{Good1953,GaleSampson1995}
+\citation{Chao1984}
+\citation{YangPedersen1997}
+\citation{Sorscher2022}
+\citation{Barbieri2020}
+\citation{Pang2005}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Setup and datasets}{4}{subsection.3.1}\protected@file@percent }
+\citation{Turc2019}
+\citation{Sanh2019}
+\citation{YangPedersen1997}
+\citation{Good1953,GaleSampson1995,Chao1984}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Model variants: TF-IDF baseline and three weakened transformers}{5}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Training-size sweep and crossover definition}{5}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Label-light coverage predictor and calibrate/predict test}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{6}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Weakening produces real crossovers where full-strength DistilBERT produced none}{6}{subsection.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Mean accuracy gap (weakened transformer $-$ TF-IDF+LR), 3 seeds per cell, across the full training-size grid and all three weakened model variants on both domains. Bold values mark the smallest $n$ at which each crossing pair's gap turns and stays non-negative.}}{6}{table.1}\protected@file@percent }
+\newlabel{tab:sweep}{{1}{6}{Mean accuracy gap (weakened transformer $-$ TF-IDF+LR), 3 seeds per cell, across the full training-size grid and all three weakened model variants on both domains. Bold values mark the smallest $n$ at which each crossing pair's gap turns and stays non-negative}{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Mean test accuracy versus labeled training-set size $n$ for TF-IDF+LR and three weakened transformer variants (BERT-tiny, DistilBERT-trunc8, DistilBERT-trunc16), on TweetEval and Rotten Tomatoes (3 seeds per cell). DistilBERT-trunc16 crosses TF-IDF on both domains; DistilBERT-trunc8 crosses only on Rotten Tomatoes; BERT-tiny never crosses on either domain.}}{6}{figure.2}\protected@file@percent }
+\newlabel{fig:accuracy_curves}{{2}{6}{Mean test accuracy versus labeled training-set size $n$ for TF-IDF+LR and three weakened transformer variants (BERT-tiny, DistilBERT-trunc8, DistilBERT-trunc16), on TweetEval and Rotten Tomatoes (3 seeds per cell). DistilBERT-trunc16 crosses TF-IDF on both domains; DistilBERT-trunc8 crosses only on Rotten Tomatoes; BERT-tiny never crosses on either domain}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}The label-light predictor fails in all six calibrate/predict directions}{7}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces All six calibrate-on-one/predict-on-another directions across the three empirical crossover pairs from Table\nobreakspace  {}\ref {tab:sweep}. ``--'' marks a direction where too few finite points exist to compute a rank correlation at all.}}{7}{table.2}\protected@file@percent }
+\newlabel{tab:calpred}{{2}{7}{All six calibrate-on-one/predict-on-another directions across the three empirical crossover pairs from Table~\ref {tab:sweep}. ``--'' marks a direction where too few finite points exist to compute a rank correlation at all}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{7}{section.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Accuracy gap (weakened-transformer minus TF-IDF+LR) versus training-set size $n$ for the three model variants on each domain; the gap crossing zero defines the empirical crossover $n^*$ used as ground truth for the label-light predictor's calibrate-on-one/predict-on-another test in Section 4.2.}}{8}{figure.3}\protected@file@percent }
+\newlabel{fig:gap_curves}{{3}{8}{Accuracy gap (weakened-transformer minus TF-IDF+LR) versus training-set size $n$ for the three model variants on each domain; the gap crossing zero defines the empirical crossover $n^*$ used as ground truth for the label-light predictor's calibrate-on-one/predict-on-another test in Section 4.2}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Measured wall-clock CPU cost and accuracy gap between full-strength DistilBERT and TF-IDF+LR, from the prior companion experiment on Rotten Tomatoes/SST-2. ``Extra labels'' is a linear extrapolation beyond the tested range and should be read as illustrative, not as a validated estimate.}}{8}{table.3}\protected@file@percent }
+\newlabel{tab:cost}{{3}{8}{Measured wall-clock CPU cost and accuracy gap between full-strength DistilBERT and TF-IDF+LR, from the prior companion experiment on Rotten Tomatoes/SST-2. ``Extra labels'' is a linear extrapolation beyond the tested range and should be read as illustrative, not as a validated estimate}{table.3}{}}
+\bibstyle{plainnat}
+\bibdata{references}
+\bibcite{Li2020}{{1}{2020}{{Li et~al.}}{{Li, Yuan, Peng, Mei, and Wang}}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Limitations}{9}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{9}{section.7}\protected@file@percent }
+\bibcite{Pang2005}{{2}{2005}{{Pang and Lee}}{{}}}
+\bibcite{Good1953}{{3}{1953}{{Good}}{{}}}
+\bibcite{Chao1984}{{4}{1984}{{Chao}}{{}}}
+\bibcite{Turc2019}{{5}{2019}{{Turc et~al.}}{{Turc, Chang, Lee, and Toutanova}}}
+\bibcite{Sanh2019}{{6}{2019}{{Sanh et~al.}}{{Sanh, Debut, Chaumond, and Wolf}}}
+\bibcite{YangPedersen1997}{{7}{1997}{{Yang and Pedersen}}{{}}}
+\bibcite{GaleSampson1995}{{8}{1995}{{Gale and Sampson}}{{}}}
+\bibcite{Poech2022}{{9}{2022}{{Poech et~al.}}{{Poech, Diera, Lin, Khera, Meuser, Singhal, Karl, and Scherp}}}
+\bibcite{Shanto2026}{{10}{2026}{{Shanto et~al.}}{{Shanto, Yadav, Panth, and Satapathy}}}
+\bibcite{Devlin2019}{{11}{2019}{{Devlin et~al.}}{{Devlin, Chang, Lee, and Toutanova}}}
+\bibcite{Bucher2024}{{12}{2024}{{Bucher and Martini}}{{}}}
+\bibcite{Sorscher2022}{{13}{2022}{{Sorscher et~al.}}{{Sorscher, Geirhos, Shekhar, Ganguli, and Morcos}}}
+\bibcite{Barbieri2020}{{14}{2020}{{Barbieri et~al.}}{{Barbieri, Camacho-Collados, Neves, and Espinosa-Anke}}}
+\gdef \@abspage@last{10}

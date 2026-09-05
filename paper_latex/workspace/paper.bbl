@@ -1,0 +1,109 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Li et~al.(2020)Li, Yuan, Peng, Mei, and Wang]{Li2020}
+Xuedong Li, Walter Yuan, Dezhong Peng, Qiaozhu Mei, and Yue Wang.
+\newblock When bert meets bilbo: a learning curve analysis of pretrained
+  language model on disease classification.
+\newblock In \emph{IEEE International Conference on Healthcare Informatics},
+  volume~21, 2020.
+\newblock \doi{10.1186/s12911-022-01829-2}.
+
+\bibitem[Pang and Lee(2005)]{Pang2005}
+B.~Pang and Lillian Lee.
+\newblock Seeing stars: Exploiting class relationships for sentiment
+  categorization with respect to rating scales.
+\newblock In \emph{Annual Meeting of the Association for Computational
+  Linguistics}, volume abs/cs/0506075, 2005.
+\newblock \doi{10.3115/1219840.1219855}.
+
+\bibitem[Good(1953)]{Good1953}
+I.~J. Good.
+\newblock The population frequencies of species and the estimation of
+  population parameters.
+\newblock \emph{Biometrika}, 40\penalty0 (3-4):\penalty0 237--264, 1953.
+
+\bibitem[Chao(1984)]{Chao1984}
+Anne Chao.
+\newblock Nonparametric estimation of the number of classes in a population.
+\newblock \emph{Scandinavian Journal of Statistics}, 11\penalty0 (4):\penalty0
+  265--270, 1984.
+
+\bibitem[Turc et~al.(2019)Turc, Chang, Lee, and Toutanova]{Turc2019}
+Iulia Turc, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Well-read students learn better: On the importance of pre-training
+  compact models.
+\newblock \emph{arXiv: Computation and Language}, 2019.
+
+\bibitem[Sanh et~al.(2019)Sanh, Debut, Chaumond, and Wolf]{Sanh2019}
+Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf.
+\newblock Distilbert, a distilled version of bert: smaller, faster, cheaper and
+  lighter.
+\newblock \emph{ArXiv}, abs/1910.01108, 2019.
+
+\bibitem[Yang and Pedersen(1997)]{YangPedersen1997}
+Yiming Yang and Jan~O. Pedersen.
+\newblock A comparative study on feature selection in text categorization.
+\newblock In \emph{Proceedings of the Fourteenth International Conference on
+  Machine Learning (ICML)}, pages 412--420, 1997.
+
+\bibitem[Gale and Sampson(1995)]{GaleSampson1995}
+William~A. Gale and Geoffrey Sampson.
+\newblock Good-turing frequency estimation without tears.
+\newblock \emph{Journal of Quantitative Linguistics}, 2\penalty0 (3):\penalty0
+  217--237, 1995.
+
+\bibitem[Poech et~al.(2022)Poech, Diera, Lin, Khera, Meuser, Singhal, Karl, and
+  Scherp]{Poech2022}
+Lukas~Galke Poech, Andor Diera, Bao~Xin Lin, Bhakti Khera, Tim Meuser, Tushar
+  Singhal, Fabian Karl, and A.~Scherp.
+\newblock Are we really making much progress in text classification? a
+  comparative review.
+\newblock 2022.
+
+\bibitem[Shanto et~al.(2026)Shanto, Yadav, Panth, and Satapathy]{Shanto2026}
+Dip~Biswas Shanto, M.~Yadav, Prajwal Panth, and S.~C. Satapathy.
+\newblock From tf-idf to transformers: A comparative and ensemble approach to
+  sentiment classification.
+\newblock In \emph{2026 International Conference on Intelligent Computing,
+  Networks, and Security (IC-ICNS)}, pages 1--6, 2026.
+\newblock \doi{10.1109/IC-ICNS68863.2026.11537820}.
+
+\bibitem[Devlin et~al.(2019)Devlin, Chang, Lee, and Toutanova]{Devlin2019}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In \emph{North American Chapter of the Association for Computational
+  Linguistics}, pages 4171--4186, 2019.
+\newblock \doi{10.18653/v1/N19-1423}.
+
+\bibitem[Bucher and Martini(2024)]{Bucher2024}
+Martin Bucher and Marco Martini.
+\newblock Fine-tuned 'small' llms (still) significantly outperform zero-shot
+  generative ai models in text classification.
+\newblock \emph{ArXiv}, abs/2406.08660, 2024.
+\newblock \doi{10.48550/arXiv.2406.08660}.
+
+\bibitem[Sorscher et~al.(2022)Sorscher, Geirhos, Shekhar, Ganguli, and
+  Morcos]{Sorscher2022}
+Ben Sorscher, Robert Geirhos, Shashank Shekhar, S.~Ganguli, and Ari~S. Morcos.
+\newblock Beyond neural scaling laws: beating power law scaling via data
+  pruning.
+\newblock In \emph{Neural Information Processing Systems}, volume
+  abs/2206.14486, 2022.
+\newblock \doi{10.48550/arXiv.2206.14486}.
+
+\bibitem[Barbieri et~al.(2020)Barbieri, Camacho-Collados, Neves, and
+  Espinosa-Anke]{Barbieri2020}
+Francesco Barbieri, José Camacho-Collados, Leonardo Neves, and Luis
+  Espinosa-Anke.
+\newblock Tweeteval: Unified benchmark and comparative evaluation for tweet
+  classification.
+\newblock In \emph{Findings}, volume abs/2010.12421, 2020.
+\newblock \doi{10.18653/v1/2020.findings-emnlp.148}.
+
+\end{thebibliography}
