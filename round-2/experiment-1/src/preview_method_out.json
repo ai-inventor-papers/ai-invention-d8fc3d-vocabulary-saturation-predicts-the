@@ -1,0 +1,424 @@
+{
+  "metadata": {
+    "method": "weaken-the-transformer crossover search + label-free Good-Turing/Chao1 coverage predictor",
+    "config": {
+      "domains": [
+        "tweet_eval",
+        "rotten_tomatoes"
+      ],
+      "n_grid": [
+        50,
+        100,
+        200
+      ],
+      "n_grid_full_plan": [
+        50,
+        100,
+        200
+      ],
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "model_variants": [
+        "tfidf_lr",
+        "bert_tiny",
+        "distilbert_trunc8"
+      ],
+      "tfidf_hparams": {
+        "ngram_range": [
+          1,
+          2
+        ],
+        "max_features": 20000,
+        "min_df": 1
+      },
+      "lr_hparams": {
+        "C": 1.0,
+        "penalty": "l2",
+        "solver": "liblinear",
+        "max_iter": 1000
+      },
+      "transformer_hparams": {
+        "n_epochs": 3,
+        "learning_rate": 3e-05,
+        "batch_size": 16,
+        "optimizer": "AdamW",
+        "warmup_ratio": 0.1,
+        "weight_decay": 0.01
+      },
+      "model_checkpoints": {
+        "bert_tiny": "prajjwal1/bert-tiny",
+        "distilbert_trunc8": "distilbert-base-uncased",
+        "distilbert_trunc16": "distilbert-base-uncased"
+      },
+      "max_lengths": {
+        "bert_tiny": 32,
+        "distilbert_trunc8": 8,
+        "distilbert_trunc16": 16
+      },
+      "time_budget_s": 10800.0,
+      "pilot_sizes": [
+        100,
+        200,
+        400
+      ],
+      "coverage_n_grid": [
+        50,
+        100,
+        200
+      ],
+      "b_bootstrap": 100,
+      "f2_instability_threshold": 10,
+      "laplace_smooth": 0.5
+    },
+    "degradation_log": [
+      {
+        "reason": "pre_degradation_before_run",
+        "detail": "Full plan grid is 7 n-values x 5 seeds x 5 model-variants x 2 domains = 350 model-fit cells, of which ~280 require transformer fine-tuning on CPU-only hardware (4 cores, no GPU). This is infeasible wi...",
+        "n_grid_used": [
+          50,
+          100,
+          200
+        ],
+        "n_grid_dropped": [
+          1500,
+          2000
+        ],
+        "seeds_used": [
+          0,
+          1,
+          2
+        ],
+        "model_variants_used": [
+          "tfidf_lr",
+          "bert_tiny",
+          "distilbert_trunc8"
+        ],
+        "model_variants_dropped": [
+          "distilbert_full"
+        ]
+      }
+    ],
+    "sweep_wall_clock_s": 0.13382482528686523,
+    "crossover_pairs_all": [
+      {
+        "domain": "tweet_eval",
+        "model_variant": "bert_tiny",
+        "n_star": null,
+        "gap_curve": [
+          {
+            "n": 50,
+            "gap": -0.053333333333333455,
+            "pooled_se": 0.016954186634706044,
+            "weak_mean": 0.5056666666666666,
+            "base_mean": 0.559,
+            "n_weak_seeds": 3,
+            "n_base_seeds": 3
+          },
+          {
+            "n": 100,
+            "gap": -0.11233333333333329,
+            "pooled_se": 0.02154323817607537,
+            "weak_mean": 0.5096666666666667,
+            "base_mean": 0.622,
+            "n_weak_seeds": 3,
+            "n_base_seeds": 3
+          },
+          {
+            "n": 200,
+            "gap": -0.1306666666666666,
+            "pooled_se": 0.010365541203644153,
+            "weak_mean": 0.5343333333333334,
+            "base_mean": 0.665,
+            "n_weak_seeds": 3,
+            "n_base_seeds": 3
+          }
+        ]
+      },
+      {
+        "domain": "tweet_eval",
+        "model_variant": "distilbert_trunc8",
+        "n_star": null,
+        "gap_curve": [
+          {
+            "n": 50,
+            "gap": -0.05900000000000005,
+            "pooled_se": 0.026764404221527774,
+            "weak_mean": 0.5,
+            "base_mean": 0.559,
+            "n_weak_seeds": 3,
+            "n_base_seeds": 3
+          },
+          {
+            "n": 100,
+            "gap": -0.10833333333333339,
+            "pooled_se": 0.013245544324203698,
+            "weak_mean": 0.5136666666666666,
+            "base_mean": 0.622,
+            "n_weak_seeds": 3,
+            "n_base_seeds": 3
+          },
+          {
+            "n": 200,
+            "gap": -0.03633333333333344,
+            "pooled_se": 0.015624055527010634,
+            "weak_mean": 0.6286666666666666,
+            "base_mean": 0.665,
+            "n_weak_seeds": 3,
+            "n_base_seeds": 3
+          }
+        ]
+      },
+      {
+        "domain": "tweet_eval",
+        "model_variant": "distilbert_trunc16",
+        "n_star": 500,
+        "gap_curve": [
+          {
+            "n": 50,
+            "gap": 0.009000000000000008,
+            "pooled_se": 0.03156474826976025,
+            "weak_mean": 0.5680000000000001,
+            "base_mean": 0.559,
+            "n_weak_seeds": 3,
+            "n_base_seeds": 3
+          },
+          {
+            "n": 100,
+            "gap": 0.015666666666666718,
+            "pooled_se": 0.020176994600562097,
+            "weak_mean": 0.6376666666666667,
+            "base_mean": 0.622,
+            "n_weak_seeds": 3,
+            "n_base_seeds": 3
+          },
+          {
+            "n": 200,
+            "gap": 0.015000000000000013,
+            "pooled_se": 0.0800187478032492,
+            "weak_mean": 0.68,
+            "base_mean": 0.665,
+            "n_weak_seeds": 3,
+            "n_base_seeds": 3
+          }
+        ],
+        "vocab_info": {
+          "vocab_mi": [
+            "best",
+            "at_the",
+            "tomorrow"
+          ],
+          "vocab_freq": [
+            "the",
+            "tomorrow",
+            "at"
+          ],
+          "mi_cutoff": 0.018280525870428534,
+          "jaccard_mi_vs_freq": 0.035,
+          "pilot_size": 400
+        },
+        "coverage_curve_mi": [
+          {
+            "n": 50,
+            "n_effective": 50,
+            "coverage_median": 0.8888888888888888,
+            "coverage_ci_lo": 0.6316666666666667,
+            "coverage_ci_hi": 1.0,
+            "chao1_median": 7.0,
+            "unstable_fraction": 1.0,
+            "unstable": true
+          },
+          {
+            "n": 100,
+            "n_effective": 100,
+            "coverage_median": 1.0,
+            "coverage_ci_lo": 0.9256048387096775,
+            "coverage_ci_hi": 1.0,
+            "chao1_median": 7.0,
+            "unstable_fraction": 1.0,
+            "unstable": true
+          },
+          {
+            "n": 200,
+            "n_effective": 200,
+            "coverage_median": 1.0,
+            "coverage_ci_lo": 0.9856055900621119,
+            "coverage_ci_hi": 1.0,
+            "chao1_median": 7.0,
+            "unstable_fraction": 1.0,
+            "unstable": true
+          }
+        ],
+        "coverage_curve_freq": [
+          {
+            "n": 50,
+            "n_effective": 50,
+            "coverage_median": 0.8742903766049728,
+            "coverage_ci_lo": 0.8416180796302133,
+            "coverage_ci_hi": 0.9098733153638814,
+            "chao1_median": 149.05384615384617,
+            "unstable_fraction": 0.0,
+            "unstable": false
+          },
+          {
+            "n": 100,
+            "n_effective": 100,
+            "coverage_median": 0.9410938532716457,
+            "coverage_ci_lo": 0.9262616928317011,
+            "coverage_ci_hi": 0.955925749012792,
+            "chao1_median": 167.479302832244,
+            "unstable_fraction": 0.0,
+            "unstable": false
+          },
+          {
+            "n": 200,
+            "n_effective": 200,
+            "coverage_median": 0.9764655298378084,
+            "coverage_ci_lo": 0.9690806710346987,
+            "coverage_ci_hi": 0.9825067680984922,
+            "chao1_median": 182.92506631299733,
+            "unstable_fraction": 0.0,
+            "unstable": false
+          }
+        ]
+      }
+    ],
+    "crossover_pairs_found": [
+      "tweet_eval/distilbert_trunc16",
+      "rotten_tomatoes/distilbert_trunc8",
+      "rotten_tomatoes/distilbert_trunc16"
+    ],
+    "predictor_results": [
+      {
+        "calibrate_on": "tweet_eval/distilbert_trunc16",
+        "predict_on": "rotten_tomatoes/distilbert_trunc8",
+        "tau": 0.0,
+        "n_hat_star": null,
+        "true_n_star": 200,
+        "within_2x": false,
+        "spearman_rho": NaN,
+        "spearman_p": NaN
+      },
+      {
+        "calibrate_on": "tweet_eval/distilbert_trunc16",
+        "predict_on": "rotten_tomatoes/distilbert_trunc16",
+        "tau": 0.0,
+        "n_hat_star": null,
+        "true_n_star": 50,
+        "within_2x": false,
+        "spearman_rho": NaN,
+        "spearman_p": NaN
+      },
+      {
+        "calibrate_on": "rotten_tomatoes/distilbert_trunc8",
+        "predict_on": "tweet_eval/distilbert_trunc16",
+        "tau": 0.0,
+        "n_hat_star": null,
+        "true_n_star": 500,
+        "within_2x": false,
+        "spearman_rho": -0.8660254037844387,
+        "spearman_p": 0.33333333333333326
+      }
+    ],
+    "explicit_negative_result": null,
+    "top_line_verdict": "CROSSOVER_FOUND_PREDICTOR_REFUTED: 3 crossover pair(s) found; no calibrate/predict direction landed within the 2x band."
+  },
+  "datasets": [
+    {
+      "dataset": "tweet_eval",
+      "examples": [
+        {
+          "input": "tfidf_lr fit on n=50 train examples (seed=0) from tweet_eval, evaluated on the fixed test set",
+          "output": "0.559000",
+          "predict_tfidf_lr": "0.559000",
+          "metadata_model_variant": "tfidf_lr",
+          "metadata_n": 50,
+          "metadata_seed": 0,
+          "metadata_n_train_actual": 50,
+          "metadata_val_acc": 0.61,
+          "metadata_test_acc": 0.559,
+          "metadata_wall_clock_s": 0.2296602725982666,
+          "metadata_cpu_time_s": 0.03287762500000002,
+          "metadata_degraded": false
+        },
+        {
+          "input": "tfidf_lr fit on n=50 train examples (seed=1) from tweet_eval, evaluated on the fixed test set",
+          "output": "0.559000",
+          "predict_tfidf_lr": "0.559000",
+          "metadata_model_variant": "tfidf_lr",
+          "metadata_n": 50,
+          "metadata_seed": 1,
+          "metadata_n_train_actual": 50,
+          "metadata_val_acc": 0.61,
+          "metadata_test_acc": 0.559,
+          "metadata_wall_clock_s": 0.02614617347717285,
+          "metadata_cpu_time_s": 0.026052030000000004,
+          "metadata_degraded": false
+        },
+        {
+          "input": "tfidf_lr fit on n=50 train examples (seed=2) from tweet_eval, evaluated on the fixed test set",
+          "output": "0.559000",
+          "predict_tfidf_lr": "0.559000",
+          "metadata_model_variant": "tfidf_lr",
+          "metadata_n": 50,
+          "metadata_seed": 2,
+          "metadata_n_train_actual": 50,
+          "metadata_val_acc": 0.61,
+          "metadata_test_acc": 0.559,
+          "metadata_wall_clock_s": 0.026570558547973633,
+          "metadata_cpu_time_s": 0.02647215099999989,
+          "metadata_degraded": false
+        }
+      ]
+    },
+    {
+      "dataset": "rotten_tomatoes",
+      "examples": [
+        {
+          "input": "tfidf_lr fit on n=50 train examples (seed=0) from rotten_tomatoes, evaluated on the fixed test set",
+          "output": "0.551000",
+          "predict_tfidf_lr": "0.551000",
+          "metadata_model_variant": "tfidf_lr",
+          "metadata_n": 50,
+          "metadata_seed": 0,
+          "metadata_n_train_actual": 50,
+          "metadata_val_acc": 0.542,
+          "metadata_test_acc": 0.551,
+          "metadata_wall_clock_s": 0.027214765548706055,
+          "metadata_cpu_time_s": 0.02714693100006116,
+          "metadata_degraded": false
+        },
+        {
+          "input": "tfidf_lr fit on n=50 train examples (seed=1) from rotten_tomatoes, evaluated on the fixed test set",
+          "output": "0.551000",
+          "predict_tfidf_lr": "0.551000",
+          "metadata_model_variant": "tfidf_lr",
+          "metadata_n": 50,
+          "metadata_seed": 1,
+          "metadata_n_train_actual": 50,
+          "metadata_val_acc": 0.542,
+          "metadata_test_acc": 0.551,
+          "metadata_wall_clock_s": 0.025891780853271484,
+          "metadata_cpu_time_s": 0.025841590000709402,
+          "metadata_degraded": false
+        },
+        {
+          "input": "tfidf_lr fit on n=50 train examples (seed=2) from rotten_tomatoes, evaluated on the fixed test set",
+          "output": "0.551000",
+          "predict_tfidf_lr": "0.551000",
+          "metadata_model_variant": "tfidf_lr",
+          "metadata_n": 50,
+          "metadata_seed": 2,
+          "metadata_n_train_actual": 50,
+          "metadata_val_acc": 0.542,
+          "metadata_test_acc": 0.551,
+          "metadata_wall_clock_s": 0.02647709846496582,
+          "metadata_cpu_time_s": 0.026364399999692978,
+          "metadata_degraded": false
+        }
+      ]
+    }
+  ]
+}
