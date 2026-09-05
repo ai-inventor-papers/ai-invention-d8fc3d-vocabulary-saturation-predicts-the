@@ -1,0 +1,23 @@
+[
+  {
+    "text": "kids don't mind crappy movies as much as adults , provided there's lots of cute animals and clumsy people . 'snow dogs' has both .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n2000"
+  },
+  {
+    "text": "beautifully observed , miraculously unsentimental comedy-drama .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n2000"
+  },
+  {
+    "text": "ultimately , jane learns her place as a girl , softens up and loses some of the intensity that made her an interesting character to begin with .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n2000"
+  }
+]

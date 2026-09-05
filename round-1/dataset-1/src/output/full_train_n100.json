@@ -1,0 +1,2102 @@
+[
+  {
+    "text": "a turgid little history lesson , humourless and dull .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a preposterously melodramatic paean to gang-member teens in brooklyn circa 1958 .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "despite the surface attractions -- conrad l . hall's cinematography will likely be nominated for an oscar next year -- there's something impressive and yet lacking about everything .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "never inspires more than an interested detachment .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "there's not much to fatale , outside of its stylish surprises . . . but that's ok .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "what better message than 'love thyself' could young women of any size receive ?",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "nakata's technique is to imply terror by suggestion , rather than the overuse of special effects .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "fans of critics' darling band wilco will marvel at the sometimes murky , always brooding look of i am trying to break your heart .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "visually striking and viscerally repellent .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "includes too much obvious padding .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a lovably old-school hollywood confection .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a classic fairy tale that perfectly captures the wonders and worries of childhood in a way that few movies have ever approached .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a moving and solidly entertaining comedy/drama that should bolster director and co-writer juan jos\u00e9 campanella's reputation in the united states .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it's a bad thing when a movie has about as much substance as its end credits blooper reel .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a preposterous , prurient whodunit .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the master of disguise is funny--not \" ha ha \" funny , \" dead circus performer \" funny . and for all the wrong reasons besides .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "uneasy mishmash of styles and genres .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "eight legged freaks won't join the pantheon of great monster/science fiction flicks that we have come to love . . .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "you're not merely watching history , you're engulfed by it .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the production values are of the highest and the performances attractive without being memorable .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a colorful , vibrant introduction to a universal human impulse , lushly photographed and beautifully recorded .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "michele is a such a brainless flibbertigibbet that it's hard to take her spiritual quest at all seriously .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "limps along on a squirm-inducing fish-out-of-water formula that goes nowhere and goes there very , very slowly .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a farce of a parody of a comedy of a premise , it isn't a comparison to reality so much as it is a commentary about our knowledge of films .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "there aren't too many films that can be as simultaneously funny , offbeat and heartwarming ( without a thick shmear of the goo , at least ) , but \" elling \" manages to do all three quite well , making it one of the year's most enjoyable releases .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "steers has an unexpectedly adamant streak of warm-blooded empathy for all his disparate manhattan denizens--especially the a * * holes .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "\" i blame all men for war , \" [the warden's daughter] tells her father . the movie is about as deep as that sentiment .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "tsai convincingly paints a specifically urban sense of disassociation here .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "if the plot seems a bit on the skinny side , that's because panic room is interested in nothing more than sucking you in\u0085and making you sweat .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "sluggish , tonally uneven .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "at its best , the good girl is a refreshingly adult take on adultery . . .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a poignant and gently humorous parable that loves its characters and communicates something rather beautiful about human nature .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "i'm giving it thumbs down due to the endlessly repetitive scenes of embarrassment . there's got to be a more graceful way of portraying the devastation of this disease .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "whole stretches of the film may be incomprehensible to moviegoers not already clad in basic black .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "how this one escaped the lifetime network i'll never know .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it's hard to fairly judge a film like ringu when you've seen the remake first . many of the effective horror elements are dampened through familiarity , [yet] are worthwhile .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a celebration of quirkiness , eccentricity , and certain individuals' tendency to let it all hang out , and damn the consequences .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "like the series , the movie is funny , smart , visually inventive , and most of all , alive .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a disturbing and frighteningly evocative assembly of imagery and hypnotic music composed by philip glass .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a bittersweet film , simple in form but rich with human events .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "great story , bad idea for a movie .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a breezy , diverting , conventional , well-acted tale of two men locked in an ongoing game of cat-and-cat .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "stripped almost entirely of such tools as nudity , profanity and violence , labute does manage to make a few points about modern man and his problematic quest for human connection .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the movie doesn't add anything fresh to the myth .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it gives devastating testimony to both people's capacity for evil and their heroic capacity for good .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "[a]n utterly charming and hilarious film that reminded me of the best of the disney comedies from the 60s .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "writer-director stephen gaghan has made the near-fatal mistake of being what the english call 'too clever by half . '",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "michael moore has perfected the art of highly entertaining , self-aggrandizing , politically motivated documentary-making , and he's got as potent a topic as ever here .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it's hard to imagine any recent film , independent or otherwise , that makes as much of a mess as this one .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "one of the funniest motion pictures of the year , but . . . also one of the most curiously depressing .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "makes a joke out of car chases for an hour and then gives us half an hour of car chases .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "skip this turd and pick your nose instead because you're sure to get more out of the latter experience .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "[broomfield] uncovers a story powerful enough to leave the screen sizzling with intrigue .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "this bond film goes off the beaten path , not necessarily for the better .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the story is naturally poignant , but first-time screenwriter paul pender overloads it with sugary bits of business .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "wildly incompetent but brilliantly named half past dead -- or for seagal pessimists : totally past his prime .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "billy crystal and robert de niro sleepwalk through vulgarities in a sequel you can refuse .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it's unfortunate that wallace , who wrote gibson's braveheart as well as the recent pearl harbor , has such an irrepressible passion for sappy situations and dialogue .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "puts to rest any thought that the german film industry cannot make a delightful comedy centering on food .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "under 15 ? a giggle a minute . over age 15 ? big fat waste of time .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "fans of nijinsky will savor every minute of cox's work .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "may be spoofing an easy target -- those old '50's giant creature features -- but . . . it acknowledges and celebrates their cheesiness as the reason why people get a kick out of watching them today .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "another best of the year selection .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "[f]rom the performances and the cinematography to the outstanding soundtrack and unconventional narrative , the film is blazingly alive and admirable on many levels .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "its adult themes of familial separation and societal betrayal are head and shoulders above much of the director's previous popcorn work .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "cho's timing is priceless .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "this movie got me grinning . there's a part of us that cannot help be entertained by the sight of someone getting away with something .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the cast is uniformly excellent . . . but the film itself is merely mildly charming .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "hey arnold ! is now stretched to barely feature length , with a little more attention paid to the animation . still , the updated dickensian sensibility of writer craig bartlett's story is appealing .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it's a much more emotional journey than what shyamalan has given us in his past two movies , and gibson , stepping in for bruce willis , is the perfect actor to take us on the trip .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "much monkeyfun for all .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "often lingers just as long on the irrelevant as on the engaging , which gradually turns what time is it there ? into how long is this movie ?",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "vividly demonstrates that the director of such hollywood blockbusters as patriot games can still turn out a small , personal film with an emotional wallop .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "well before it's over , beijing bicycle begins spinning its wheels .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "'[hopkins]doesn't so much phone in his performance as fax it . no , even that's too committed . he gets his secretary to fax it . \"",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a well made indieflick in need of some trims and a more chemistry between its stars .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "late marriage's stiffness is unlikely to demonstrate the emotional clout to sweep u . s . viewers off their feet .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "well-intentioned though it may be , its soap-opera morality tales have the antiseptic , preprogrammed feel of an after-school special .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a triumph , relentless and beautiful in its downbeat darkness .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it's all gratuitous before long , as if schwentke were fulfilling a gross-out quota for an anticipated audience demographic instead of shaping the material to fit the story .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "that rare documentary that incorporates so much of human experience -- drama , conflict , tears and surprise -- that it transcends the normal divisions between fiction and nonfiction film .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "even as lame horror flicks go , this is lame .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the film presents visceral and dangerously honest revelations about the men and machines behind the curtains of our planet .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "woody allen has really found his groove these days . the problem is that it is one that allows him to churn out one mediocre movie after another .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a thoughtful , provocative , insistently humanizing film .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "\" auto focus \" works as an unusual biopic and document of male swingers in the playboy era",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "you wouldn't want to live waydowntown , but it is a hilarious place to visit .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "i was impressed by how many tit-for-tat retaliatory responses the filmmakers allow before pulling the plug on the conspirators and averting an american-russian armageddon .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "dong shows how intolerance has the power to deform families , then tear them apart .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "an impenetrable and insufferable ball of pseudo-philosophic twaddle .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "louiso lets the movie dawdle in classic disaffected-indie-film mode , and brother hoffman's script stumbles over a late-inning twist that just doesn't make sense .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "essentially \" fatal attraction \" remade for viewers who were in diapers when the original was released in 1987 . . . . this story gets sillier , not scarier , as it goes along . . .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a gripping drama .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "scarcely worth a mention apart from reporting on the number of tumbleweeds blowing through the empty theatres graced with its company .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "too bad kramer couldn't make a guest appearance to liven things up .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the origin story is well told , and the characters will not disappoint anyone who values the original comic books . it's in the action scenes that things fall apart .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "demonstrates the unusual power of thoughtful , subjective filmmaking .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it's kind of sad that so many people put so much time and energy into this turkey .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the problem with this film is that it lacks focus . i sympathize with the plight of these families , but the movie doesn't do a very good job conveying the issue at hand .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a laughable -- or rather , unlaughable -- excuse for a film .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "an historical episode that , in the simple telling , proves simultaneously harrowing and uplifting",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "disappointing in comparison",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "is not a classical dramatic animated feature , nor a hip , contemporary , in-jokey one .",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "fairly trite narrative",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "i 'm not even a fan of the genre",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "blaxploitation",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "romp from robert rodriguez .",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "assured",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "handled affair , a film about human darkness but etched with a light ( yet unsentimental ) touch",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "too mainstream",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "sometimes is a brilliant movie .",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "vibrance",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "an instantly forgettable snow-and-stuntwork extravaganza that likely",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "frequently hilarious",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "in retelling a historically significant , and personal , episode detailing how one international city welcomed tens of thousands of german jewish refugees while the world 's democracie",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "does n't completely",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "inherently funny",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "haute",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "nurtured his metaphors",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "queasy",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "ones that were imposed for the sake of commercial sensibilities",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "that was followed by the bad idea",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it 's as if de palma spent an hour setting a fancy table and then served up kraft macaroni and cheese .",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "have much panache , but with material this rich it does n't need it",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it makes me say the obvious : abandon all hope of a good movie ye who enter here .",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "for all its shoot-outs",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "refreshingly unhibited enthusiasm",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "sleazy",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "nicholas nickleby is too much like a fragment of an underdone potato .",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "friends will be friends through thick and thin",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "tells a deeper story",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "dumb down",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "is a goofball movie , in the way that malkovich was",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "all too predictable and far too cliched",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the most amazing super-sized dosage",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "to make the suckers out there surrender $ 9 and 93 minutes of unrecoverable life",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "low-brow humor ,",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "nurses plot holes gaping enough to pilot an entire olympic swim team through",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "cuaron repeatedly",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "keeps you guessing at almost every turn",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "odd movies",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "yet , it must be admitted , not entirely humorless",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "that manages to invest real humor",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "that embraces its old-fashioned themes and",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "in a tasteful , intelligent manner",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "be forgettable if it were n't such a clever adaptation of the bard 's tragic play",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the funnier movies",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "soulless and",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it 's fairly solid -- not to mention well edited so that it certainly does n't feel like a film that strays past the two and a half mark .",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "nightmarish",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a cinematic fluidity and sense of intelligence",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "near miss",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "damn fine",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "it 's all about anakin ... and the lustrous polished visuals rich in color and creativity and , of course , special effect .",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "its considerable power",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "far too much",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "disguised",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "throws away the goodwill the first half of his movie generates by orchestrating a finale that is impenetrable and dull .",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a certain sense of experimentation and improvisation",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "lacks in action",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a powerful , naturally dramatic piece of low-budget filmmaking",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "so sloppy",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "take on loss and loneliness",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "sugary sentiment and withholds delivery on the pell-mell",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "conquers",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "an enthusiastic charm in fire that makes the formula fresh again",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "shines in her quiet blue eyes",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "depressing",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "to attempt to pass this stinker off as a scary movie",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "does the trick of making us care about its protagonist and celebrate his victories",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "sort of amazing",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "liked the movie",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the flaws",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "big box office bucks",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "cultivated",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "in a superficial way , while never sure",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the film 's problems",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "dubious",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "the exotic world",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a rich tale",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "handles the nuclear crisis sequences evenly but milks drama when she should be building suspense , and drags out too many scenes toward the end that should move quickly .",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "who excels in the art of impossible disappearing/reappearing acts",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "with aplomb",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "weak claims",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "french shocker",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "cultural",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "this sad , compulsive life",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a decomposition of healthy eccentric inspiration and ambition -- wearing a cloak of unsentimental , straightforward text --",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "shot like a postcard and",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "of piffle",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "guest appearance",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "contradictory things",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "brainless flibbertigibbet",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "combined with indoctrinated prejudice",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "pretty and gifted",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "to blast even the smallest sensitivities from the romance with his clamorous approach",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "color and depth , and",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "original fantasy film",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "another arnold vehicle that fails to make adequate",
+    "label": 0,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a spark of its own",
+    "label": 1,
+    "domain": "sst2",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "The Nazi's would approve of what is occurring in the modern Europe. No doubt choice will eventually be removed.",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user people are no longer in the dark, SM has changed the political landscape forever! Hillary can't hide anymore",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user and if the healthcare plan change,seems he will keep the best part from Obamacare.",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user In case you didn\\u2019t spot it\\u002c Greys Anatomy is back next Wednesday at 10 on Living // @user",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "#PunchNews Boko Haram kills seven in Borno community: The Borno State Police Command on Sunday confirmed the k...",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Was totally looking forward to movies tomorrow :( oh well I'll just have a Naruto marathon at home by myself or something haha.",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"Day 1 at the SoCal College Fair @ Pomona Fairplex--1st person to get to our booth &amp; say \"\"\"\"your story matters\"\"\"\" wins something special! #doit\"",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Don't build walls, divest from fossil fuels! Climate Change Will Stir \u2018Unimaginable\u2019 Refugee Crisis -https://t.co/dgfcOHjIRZ",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"Congrats James Franklin...that was the dumbest call I've seen not only today but maybe ever. 4th &amp; 11 fake punt sweep, up 3 at midfield lol\"",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "i was going to Justin Biebers concert Tomorrow at dallas . buh the tickets had sold out.  ;\\u2019c @user",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"Chad sentences Boko Haram members to death for June attacks: Recent months, however, have seen the group stage...",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "1 Shot Dead, Another Wounded Outside of South Jersey Mall On #BlackFridayhttps://t.co/m2Eby38G24\u2026",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Was meant to be going to York on Sunday for the football trial things but its been delayed #annoying",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Whoevedr did this needs THE DEATH PENALTY",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"Finding it bizarre how they keep having the Undertaker beat the shit out of Brock Lesnar, if he wins on Sunday I'll find it hard to stomach.\"",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Got to give him credit. @user The combined creepiness of euphemism and euthanasia makes this potentially his signature word.",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Happy Black Friday, sluts! Shop until you drop! Who's purchasing a pink jeep? #ScreamQueens \ud83d\udc8b",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Anyone else ends up ending their career and possibly in jail. But well connected leftists are given a pass.",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "I could have had the BEST DAY EVER!..if I had went to tha Nicki Minaj concert in AC tonight...",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "1st day back at work after a terrible week off and I've forgotten my ipod, security pass and lunch! #mondaydaze #cancelmonday",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user the game where I took that photo, that was my Mother's Day gift to my mom...Toronto vs Red Sox on May 8 this season\"",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Scott Walker is a despicable prick..may he get cancer..and roast in hell!",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user Dude, it was sad saying goodbye to the PH last night. I'll always remember my 1st St Pattys when we stayed up all night...\"",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Gotta get my copy of the Rolling Stone issue tomorrow and get Dez to sign it... I gotta frame it",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Vice President Mike \"Fag Punisher\" Pence",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Damn Drexel and Penn have canceled classes for Monday and Tuesday due to the hurricane.",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "I fucking went to disneyland today but they had a marathon going on and one entrance to the park. Sat in traffic for almost 3 hours",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Reid Hoffman\\u002c ofLinkedIn says start where you are. Says Google was in Beta form for 1st 2 yrs while they progressed. Don\\u2019t wait. Start now!!",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "...\"radical acceptance\", a rigorous mental determination to meet head on the most powerful negatives in our lives...",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "The MiniSuit SPORTY armband lets you carry your iPhone 6 and your keys while working out: Apple Watch may be a...",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user are you going to Petrolia\\u2019s game tomorrow ? I still havent got to see you or the baby!",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"Batman may of been the better man in our last encounter,   but I'm a man on a mission and it's to expose you for what you really are and --",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Sure! Carson could do the job worse than anyone! More controversy means more eyeballs!",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user Jeb Bush probably knows and he'd probably get us into a 3rd Iraq invasion.  Knows lots of little facts, learns nothing.",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "I went crazy when @user went on that run &amp; @user scored &amp; I was sat in the Milan end! #WhatANight",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "I've been thinking about it... Does anyone else find it disturbing how Kane may face rape charges and GM's are calling on his availability?",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user lmao ha bad hombres!!!!!",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Karthikeyan in 22nd is already being warned by his HRT engineer that he needs to cool the brakes\\u002c with 53 laps still to go. #F1",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Also tomorrow. I'm streaming a actual Minecraft game so be there. Um I'll make a thing of what I'm playing",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "HAPPY SATURDAY MORNING!! If you're in Austin this weekend don't miss the state's LARGEST book festival happening this weekend at the capitol",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user cool this is cool i managed to get the CTS sun in the pic and black stars for Avril now for lawson",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "wish you happy Holi - 08 March: PUTHUMUGANGAL THEVAI ...: Information about Science & Technology Course... #asematy",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Are you guys as ready as I am for RIRI 7th album .... Come on NOVEMBER 19 :) #rihannanavy @user rihan",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "6. Vegetarianism is the best way to go",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "my 1st gen moto G is more solid than Nokia 3310. I love the stock android on Moto G",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"It's a Monday, I'm in Muskoka, yet I'm not going to The Kee for Resort Night. What the fuck is happening?\"",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Not for fun! Rahul Gandhi &amp; Sonia Gandhi are ACCUSED in #NationalHerald criminal case And you forgot to prefix that",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Damn liberals hear KKK and immediately think #racism (not #communityservice).",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user @user 3rd??! :O where have I been I thought Careless World was the 1st one. No?",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Here, have this picture of Eric Church that I took from the pit in honor of #chiefweek See ya Friday!",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Just got back from school :) aaaggghhh  he is 18. I\\u2019ve been having a spazzing attack the whole day :O National Bieber Day<3 @user :)",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user oh that\\u2019s right Duels are tomorrow ha good luck to you and will",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user @user I have been to Qatar in June/July. Miserable is just an empty word that does not scratch. Hot No beer and Muslims. Fun eh?",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "The #mannequinchallenge and #younameitchallenge please stop doing it..it's annoying now",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Flyin to the bay tomorrow then kickin it in Fresno a couple days before going to Colorado #fuckyes",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"Saudi security forces opened fire on Shia protesters in the tense Qatif district of Eastern Province on Friday,  Detail",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "We as a people must do whatever it takes to fight Obama's lawlessness. A communist bent on destroying our heritage. NOW, NOT TOMORROW!",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "I liked a @user video Dak Prescott Responds to Tony Romo's Statement on Cowboys & QB Situation | NFL",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "China is Wisconsins 3rd largest export market at $1.5 Billion and moron Scott Walker is kicking the gift horse in the mouth. Just careless!",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Hello man in pointy\\u002c multicoloured\\u002c snake skin cowboy boots\\u002c a suit and Axl Rose\\u2019s hair\\u002c you\\u2019ve made my Friday heart even happier.",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "We\\u2019re so excited about the Firework display this Saturday at Tudor Grange Park from 6pm!  Did you know its the...",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user He lost the popular vote by the largest margin EVER. Amazing you don't find that troubling",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Wear Blue &amp; White tomorrow at SCHOOL &amp; the Homecoming Football Game! Let's show our A+ visitors and Alumnis our school spirit! #tpride",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user @user 1st time GD oppa praised VIPs in public,1st time other countries VIP jealous with M'sia VIP..and many many more...\"",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "I'm going to Cali for Disneyland on Tuesday I don't think I can handle being this excited",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "i hope justin's concert thursday gets cancelled bc of the thunder storm thats supposed to happen",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Paparazzi is a filipino showbiz oriented talk show that airs every sunday on TV5. Get the juiciest and freshest...",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "it's cool persona 5 is delayed a few months again people will be able to play nier automata instead",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"I may regret this later in the season, but I'm so happy for David Wright.\"",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Buzzin to see Santino\\u002c Zack Ryder\\u002c AJ and Layla turn the lights on at Braehead Tuesday hahaha #woowoowoo",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "meanwhile its half past midnight and my neighbours are sat in the back singing Bob Marley songs ugh",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Will somebody please get Ihop or rainbow tomorrow with me",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "I will be seeing Justin Bieber on my 18th birthday and I literally cannot explain the joy in my heart right now",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"Scott Walker, who thinks ISIL compares to American labor unions, thinks he knows how to handle China. On Monday,...",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Planning on heading to the Pride Parade tomorrow? Here are all the details: #YYCPride #YYC",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "I feel like Sam Smith may be the reincarnation of Jesus Christ",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Love the new mix by Jason Vernau  Live @ Nikki Beach Miami March 11th 2012 by @user via #soundcloud",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Doing it big for @user 22nd birthday with @user @user thanhnii #hallowe @ MGM Grand at Foxwoods",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "I say it every monday wen i watch raw n ill say it again i HATE seth rollins",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "He just isn`t a sneak like Clinton. If she cared about womens rights she wouldn't be taking money from Saudi Arabia.",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"HHH was never Ric Flair's bitch, Sunday I'm going to make you mine\"",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Hard to believe this is from January - Charlie Hebdo attacks prove critics were right about Islam via tennessean",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "#TheVerge Amazon Prime Day is taking over Black Friday: Amazon has created its own holiday. The company just a...",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user Curtis is going down as the 2nd best Mets FA signing(Beltran #1)",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "i am not in the state of mind to take the ACT tomorrow",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Anyways\\u002c Good morning. Did you know about Khader Adnan\\u2019s lecture in Ramallah tomorrow evening 7:00 PM in Ramallah? DO NOT MISS IT.",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Can't wait until the DLC for ME3 comes out tomorrow. :-)",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "#ClearTheShelters this Saturday August 15th at Prince George's County Animal Shelter! Hope to see you there!!",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"Supreme Court. \"\"Gay Marriage.\"\" Kentucky Clerk Jailed.  The Rule of Lawlessness.  Today, a clerk in Kentucky. Tomorrow, the rest of us.\"",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Exhibit A of #terrorist sympathizers. Someone better wake them up & show them what #SAA #Hezbollah #RuAF are doing",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "#HappyThanksgiving @user From your #Uber delivery driver you didn't tip on Thanksgiving... Bless you sir.",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"omg i wanna go Hype Park on Thursday, so jealous of everyone going\"",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "\"If you're collecting your GCSE results tomorrow and tou watch anime, there's a new episode of Naruto out tomorrow x\"",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Han mon dieu le remix de I am the best dans Dream High 2\\u002c je meurs XDDD",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "s/o to 7th grade year when being michael jackson still lost to a bumblebee during the halloween costume contest",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Boston is the next major city to see self-driving cars (via @user",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "@user Terry bolea may be racist but I refuse to believe the Hulk Hogan is anything but a true American Hero #brother @user",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Support: We\\u2019re excited that Stan Walker & advocates are running for the kids The Sun-Herald City2Surf soon!...",
+    "label": 1,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "SOAK may have overtaken Sam Smith as the shittest artist currently in the charts",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  },
+  {
+    "text": "Cba with school tomorrow\\u002c ugh whats the point",
+    "label": 0,
+    "domain": "tweet_eval",
+    "lineage_group": "independent",
+    "split": "train_n100"
+  }
+]

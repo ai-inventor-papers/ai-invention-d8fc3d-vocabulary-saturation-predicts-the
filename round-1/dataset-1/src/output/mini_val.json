@@ -1,0 +1,23 @@
+[
+  {
+    "text": "you see robert de niro singing - and dancing to - west side story show tunes . choose your reaction : a . ) that sure is funny ! b . ) that sure is pathetic !",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "val"
+  },
+  {
+    "text": "a charmer from belgium .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "val"
+  },
+  {
+    "text": "a big-budget/all-star movie as unblinkingly pure as the hours is a distinct rarity , and an event .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "val"
+  }
+]

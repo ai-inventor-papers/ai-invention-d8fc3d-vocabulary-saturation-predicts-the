@@ -1,0 +1,23 @@
+[
+  {
+    "text": "this filmed tosca -- not the first , by the way -- is a pretty good job , if it's filmed tosca that you want . i'll stay with the stage versions , how...",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "unlabeled_pool"
+  },
+  {
+    "text": "frailty isn't as gory or explicit . but in its child-centered , claustrophobic context , it can be just as frightening and disturbing -- even punishin...",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "unlabeled_pool"
+  },
+  {
+    "text": "without resorting to hyperbole , i can state that kissing jessica stein may be the best same-sex romance i have seen .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "unlabeled_pool"
+  }
+]

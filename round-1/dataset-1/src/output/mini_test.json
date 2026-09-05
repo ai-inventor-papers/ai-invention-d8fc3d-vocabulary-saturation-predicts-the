@@ -1,0 +1,23 @@
+[
+  {
+    "text": "usually when i get this much syrup , i like pancakes to go with it .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "test"
+  },
+  {
+    "text": "a stylish thriller .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "test"
+  },
+  {
+    "text": "the dramatic scenes are frequently unintentionally funny , and the action sequences -- clearly the main event -- are surprisingly uninvolving .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "test"
+  }
+]

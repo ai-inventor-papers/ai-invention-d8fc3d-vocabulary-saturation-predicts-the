@@ -1,0 +1,23 @@
+[
+  {
+    "text": "how this one escaped the lifetime network i'll never know .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n1000"
+  },
+  {
+    "text": "funny and touching .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n1000"
+  },
+  {
+    "text": "large budget notwithstanding , the movie is such a blip on the year's radar screen that it's tempting just to go with it for the ride . but this time , the old mib label stands for milder isn't better .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n1000"
+  }
+]

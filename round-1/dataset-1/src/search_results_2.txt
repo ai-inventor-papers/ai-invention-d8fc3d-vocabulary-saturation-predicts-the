@@ -1,0 +1,268 @@
+Found 2 dataset(s) for query='GLUE benchmark'
+
+============================================================
+Dataset 1: LuminaAI/CoLA_2_Class-GLUE-Benchmark
+Downloads: 20 | Likes: 0
+Description: ## CoLA Text Classification RCL Dataset
+
+### Overview
+
+This dataset contains textual data structured explicitly for standard text classification tasks using Lumina AI's Random Contrast Learning (RCL) ...
+Tags: license:mit, region:us
+
+============================================================
+Dataset 2: srikalyanmarri/GLUE-Benchmark
+Downloads: 15 | Likes: 0
+Description: ## CoLA Text Classification RCL Dataset
+
+### Overview
+
+This dataset contains textual data structured explicitly for standard text classification tasks using Lumina AI's Random Contrast Learning (RCL) ...
+Tags: license:mit, size_categories:1K<n<10K, format:csv, modality:text, library:datasets
+Found 4 dataset(s) for query='financial sentiment'
+
+============================================================
+Dataset 1: zeroshot/twitter-financial-news-sentiment
+Downloads: 3,737 | Likes: 179
+Description: 
+### Dataset Description
+
+The Twitter Financial News dataset is an English-language dataset containing an annotated corpus of finance-related tweets. This dataset is used to classify finance-related t...
+Tags: task_categories:text-classification, task_ids:multi-class-classification, annotations_creators:other, language_creators:other, multilinguality:monolingual
+
+============================================================
+Dataset 2: TimKoornstra/financial-tweets-sentiment
+Downloads: 331 | Likes: 24
+Description: 
+# Financial Sentiment Analysis Dataset
+
+## Overview
+This dataset is a comprehensive collection of tweets focused on financial topics, meticulously curated to assist in sentiment analysis in the domai...
+Tags: task_categories:text-classification, language:en, license:mit, size_categories:10K<n<100K, format:parquet
+
+============================================================
+Dataset 3: lumen-models/finbert-financial-news-sentiment-dataset
+Downloads: 211 | Likes: 0
+Description: 
+# 📈 Financial News Sentiment Dataset (FinBERT Powered)
+
+Welcome to the official data repository of **Lumen Models**. This dataset provides a real-time, high-frequency stream of global financial news ...
+Tags: task_categories:text-classification, language:en, license:mit, size_categories:n<1K, region:us
+
+============================================================
+Dataset 4: NOSIBLE/financial-sentiment
+Downloads: 146 | Likes: 2
+Description: 
+<p align="center">
+  <img src="https://github.com/NosibleAI/nosible-py/blob/main/docs/_static/readme.png?raw=true"/>
+<p>
+
+# NOSIBLE Financial Sentiment Dataset
+
+## Changelog
+- **v1.0.0:** Initial ver...
+Tags: task_categories:text-classification, language:en, license:odc-by, size_categories:100K<n<1M, format:parquet
+Found 4 dataset(s) for query='review polarity'
+
+============================================================
+Dataset 1: Lots-of-LoRAs/task494_review_polarity_answer_generation
+Downloads: 86 | Likes: 0
+Description: 
+# Dataset Card for Natural Instructions (https://github.com/allenai/natural-instructions) Task: task494_review_polarity_answer_generation
+
+## Dataset Description
+
+- **Homepage:** https://github.com/a...
+Tags: task_categories:text-generation, annotations_creators:crowdsourced, language_creators:crowdsourced, language:en, license:apache-2.0
+
+============================================================
+Dataset 2: TianfuXinqu/ghfht9074_582a26b2_product_review_polarity
+Downloads: 51 | Likes: 0
+Description: 
+# Nova Dataset: Product Review Polarity
+
+## Overview
+This dataset contains customer product reviews labeled by sentiment polarity. It supports the review analytics dashboards published by the Nova Co...
+Tags: license:other, region:us, text-classification, sentiment-analysis
+
+============================================================
+Dataset 3: Lots-of-LoRAs/task493_review_polarity_classification
+Downloads: 39 | Likes: 0
+Description: 
+# Dataset Card for Natural Instructions (https://github.com/allenai/natural-instructions) Task: task493_review_polarity_classification
+
+## Dataset Description
+
+- **Homepage:** https://github.com/alle...
+Tags: task_categories:text-generation, annotations_creators:crowdsourced, language_creators:crowdsourced, language:en, license:apache-2.0
+
+============================================================
+Dataset 4: supergoose/flan_source_amazon_polarity_Is_this_product_review_positive_4
+Downloads: 6 | Likes: 0
+Tags: size_categories:1M<n<10M, format:parquet, modality:text, library:datasets, library:dask
+Found 4 dataset(s) for query='social media sentiment'
+
+============================================================
+Dataset 1: pyupeu/social-media-peruvian-sentiment
+Downloads: 52 | Likes: 3
+Description: # Dataset Card for "social-media-peruvian-sentiment"
+
+[More Information needed](https://github.com/huggingface/datasets/blob/main/CONTRIBUTING.md#how-to-contribute-to-the-dataset-cards)...
+Tags: task_categories:text-classification, language:es, size_categories:10K<n<100K, format:parquet, modality:text
+
+============================================================
+Dataset 2: electricsheepafrica/africa-synth-telecom-social-media-sentiment-datasets-nigeria
+Downloads: 52 | Likes: 1
+Description: 
+# Africa Synth Telecom Social Media Sentiment Datasets Nigeria | Africa (Electric Sheep Africa metadata inventory)
+
+**Size category:** `100K<n<1M` - **Formats:** `parquet` - **Sector:** technology_di...
+Tags: task_categories:tabular-classification, task_categories:tabular-regression, multilinguality:monolingual, language:en, license:other
+
+============================================================
+Dataset 3: chuuhtetnaing/myanmar-social-media-sentiment-analysis-dataset
+Downloads: 38 | Likes: 0
+Description: 
+# Myanmar Social Media Sentiment Analysis Dataset
+
+A Myanmar language dataset for sentiment analysis of social media content, translated from an English source dataset.
+
+## Dataset Description
+
+This ...
+Tags: task_categories:text-classification, language:my, size_categories:n<1K, format:parquet, modality:tabular
+
+============================================================
+Dataset 4: dunkoria123/myanmar-social-media-sentiment-analysis-dataset
+Downloads: 35 | Likes: 0
+Description: 
+# Myanmar Social Media Sentiment Analysis Dataset
+
+A Myanmar language dataset for sentiment analysis of social media content, translated from an English source dataset.
+
+## Dataset Description
+
+This ...
+Tags: task_categories:text-classification, language:my, size_categories:n<1K, format:parquet, modality:tabular
+Found 0 dataset(s) for query='text classification benchmark'
+Found 1 dataset(s) for query='app review sentiment'
+
+============================================================
+Dataset 1: zalizedata/app-store-apps-review-sentiment-dataset-restricted
+Downloads: 18 | Likes: 0
+Description: 
+# appstore — reviews_fulltext_stats_2026-08-01.json — restricted packages
+
+Restricted / commercial packages for the DataForge data line
+[`app-store-apps-review-sentiment-dataset`](https://data.zalize...
+Tags: license:other, region:us
+Found 4 dataset(s) for query='news sentiment'
+
+============================================================
+Dataset 1: zeroshot/twitter-financial-news-sentiment
+Downloads: 3,737 | Likes: 179
+Description: 
+### Dataset Description
+
+The Twitter Financial News dataset is an English-language dataset containing an annotated corpus of finance-related tweets. This dataset is used to classify finance-related t...
+Tags: task_categories:text-classification, task_ids:multi-class-classification, annotations_creators:other, language_creators:other, multilinguality:monolingual
+
+============================================================
+Dataset 2: P2SAMAPA/p2-etf-news-sentiment-results
+Downloads: 358 | Likes: 0
+Tags: region:us
+
+============================================================
+Dataset 3: lumen-models/finbert-financial-news-sentiment-dataset
+Downloads: 211 | Likes: 0
+Description: 
+# 📈 Financial News Sentiment Dataset (FinBERT Powered)
+
+Welcome to the official data repository of **Lumen Models**. This dataset provides a real-time, high-frequency stream of global financial news ...
+Tags: task_categories:text-classification, language:en, license:mit, size_categories:n<1K, region:us
+
+============================================================
+Dataset 4: NickyNicky/finance-financialmodelingprep-stock-news-sentiments-rss-feed
+Downloads: 207 | Likes: 15
+Description: # Dataset Card for "finance-financialmodelingprep-stock-news-sentiments-rss-feed"
+
+[More Information needed](https://github.com/huggingface/datasets/blob/main/CONTRIBUTING.md#how-to-contribute-to-the-...
+Tags: size_categories:100K<n<1M, format:parquet, modality:text, library:datasets, library:pandas
+Found 0 dataset(s) for query='movie critic review'
+Found 3 dataset(s) for query='restaurant review sentiment'
+
+============================================================
+Dataset 1: mteb/restaurant_review_sentiment
+Downloads: 137 | Likes: 0
+Tags: size_categories:1K<n<10K, format:parquet, modality:text, library:datasets, library:pandas
+
+============================================================
+Dataset 2: vatolinalex/restaurant_review_sentiment
+Downloads: 16 | Likes: 0
+Tags: size_categories:1K<n<10K, format:parquet, modality:text, library:datasets, library:pandas
+
+============================================================
+Dataset 3: pqthinh232/vietnamese-restaurant-review-sentiment-dataset
+Downloads: 13 | Likes: 0
+Tags: size_categories:10K<n<100K, format:parquet, format:optimized-parquet, modality:tabular, modality:text
+Found 1 dataset(s) for query='opinion mining'
+
+============================================================
+Dataset 1: TianfuXinqu/northwind_opinion_mining_corpus
+Downloads: 192 | Likes: 0
+Description: # Opinion Mining Text Corpus
+
+A labeled text corpus for opinion mining and sentiment analysis tasks, compiled from an open product review text corpus dataset publicly hosted on this Hub. The source co...
+Tags: size_categories:n<1K, format:json, modality:text, library:datasets, library:pandas
+Found 3 dataset(s) for query='emotion classification text'
+
+============================================================
+Dataset 1: jakeazcona/short-text-labeled-emotion-classification
+Downloads: 299 | Likes: 2
+Tags: size_categories:10K<n<100K, format:parquet, modality:text, library:datasets, library:pandas
+
+============================================================
+Dataset 2: jakeazcona/short-text-multi-labeled-emotion-classification
+Downloads: 57 | Likes: 2
+Tags: size_categories:10K<n<100K, format:csv, modality:tabular, modality:text, library:datasets
+
+============================================================
+Dataset 3: GudepuRakshithaReddy/emotion-text-classification
+Downloads: 13 | Likes: 0
+Tags: task_categories:text-classification, language:en, size_categories:10K<n<100K, region:us
+Found 4 dataset(s) for query='sentiment tweet eval'
+
+============================================================
+Dataset 1: ia-bentebib/tweet_eval_sentiment_fr
+Downloads: 47 | Likes: 0
+Tags: size_categories:10K<n<100K, format:parquet, modality:text, library:datasets, library:pandas
+
+============================================================
+Dataset 2: autoevaluate/autoeval-eval-tweet_eval-sentiment-5ae1bf-3003786426
+Downloads: 28 | Likes: 0
+Description: # Dataset Card for AutoTrain Evaluator
+
+This repository contains model predictions generated by [AutoTrain](https://huggingface.co/autotrain) for the following task and dataset:
+
+* Task: Multi-class T...
+Tags: size_categories:1K<n<10K, format:parquet, modality:text, library:datasets, library:pandas
+
+============================================================
+Dataset 3: autoevaluate/autoeval-eval-tweet_eval-sentiment-be35d9-30474144941
+Downloads: 20 | Likes: 0
+Description: # Dataset Card for AutoTrain Evaluator
+
+This repository contains model predictions generated by [AutoTrain](https://huggingface.co/autotrain) for the following task and dataset:
+
+* Task: Multi-class T...
+Tags: size_categories:10K<n<100K, format:parquet, modality:text, library:datasets, library:pandas
+
+============================================================
+Dataset 4: autoevaluate/autoeval-eval-tweet_eval-sentiment-45124a-38605145054
+Downloads: 20 | Likes: 0
+Description: # Dataset Card for AutoTrain Evaluator
+
+This repository contains model predictions generated by [AutoTrain](https://huggingface.co/autotrain) for the following task and dataset:
+
+* Task: Multi-class T...
+Tags: size_categories:10K<n<100K, format:parquet, modality:text, library:datasets, library:pandas

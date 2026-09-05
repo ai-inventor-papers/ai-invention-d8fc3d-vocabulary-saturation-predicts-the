@@ -1,0 +1,23 @@
+[
+  {
+    "text": "a turgid little history lesson , humourless and dull .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n500"
+  },
+  {
+    "text": "eight legged freaks won't join the pantheon of great monster/science fiction flicks that we have come to love . . .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n500"
+  },
+  {
+    "text": "stripped almost entirely of such tools as nudity , profanity and violence , labute does manage to make a few points about modern man and his problemat...",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n500"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "text": "eyre is on his way to becoming the american indian spike lee .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n200"
+  },
+  {
+    "text": "too bad kramer couldn't make a guest appearance to liven things up .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n200"
+  },
+  {
+    "text": "the problem is not that it's all derivative , because plenty of funny movies recycle old tropes . the problem is that van wilder does little that is a...",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n200"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "text": "britney spears' phoniness is nothing compared to the movie's contrived , lame screenplay and listless direction .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n1500"
+  },
+  {
+    "text": "a pleasant and engaging enough sit , but in trying to have the best of both worlds it ends up falling short as a whole .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n1500"
+  },
+  {
+    "text": "initially gripping , eventually cloying pow drama .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n1500"
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "description": "Three-domain short-text binary-sentiment corpus (rotten_tomatoes, sst2, tweet_eval)",
+    "lineage_caveat": "rotten_tomatoes and sst2 share upstream Pang & Lee lineage (metadata_lineage_group='pang_lee_lineage') and are NOT independent evidence of anything; tweet_eval (metadata_lineage_group='independent') is the only genuinely independent domain.",
+    "train_sizes": [
+      50,
+      100,
+      200,
+      500,
+      1000,
+      1500,
+      2000
+    ],
+    "train_nesting_note": "Train examples are deduplicated across the 7 nested pool sizes; use metadata_train_min_n <= N to reconstruct the train_nN pool for any N in train_sizes."
+  },
+  "datasets": [
+    {
+      "dataset": "rotten_tomatoes",
+      "examples": [
+        {
+          "input": "you see robert de niro singing - and dancing to - west side story show tunes . choose your reaction : a . ) that sure is funny ! b . ) that sure is pathetic !",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a charmer from belgium .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a big-budget/all-star movie as unblinkingly pure as the hours is a distinct rarity , and an event .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        }
+      ]
+    },
+    {
+      "dataset": "sst2",
+      "examples": [
+        {
+          "input": "... watching it was painful .",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "schizo",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a stylish psychological thriller",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        }
+      ]
+    },
+    {
+      "dataset": "tweet_eval",
+      "examples": [
+        {
+          "input": "S.O.S I left my Naruto game at home and at my grandpas till Monday I won't make it help",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "independent",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "@user Yesterday? lol alotta Afghans had birthdays yesterday it isnt even January 1st\\u002c Happy Birthday :D",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "independent",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "MetroPCS launches the Galaxy S III on October 22\\u002c price is $499: Good news for MetroPCS cust... more after redirect",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "independent",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        }
+      ]
+    }
+  ]
+}

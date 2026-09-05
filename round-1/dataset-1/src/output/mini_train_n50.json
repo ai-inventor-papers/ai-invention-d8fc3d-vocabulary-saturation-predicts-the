@@ -1,0 +1,23 @@
+[
+  {
+    "text": "a triumph , relentless and beautiful in its downbeat darkness .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n50"
+  },
+  {
+    "text": "it's hard to imagine any recent film , independent or otherwise , that makes as much of a mess as this one .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n50"
+  },
+  {
+    "text": "stripped almost entirely of such tools as nudity , profanity and violence , labute does manage to make a few points about modern man and his problematic quest for human connection .",
+    "label": 1,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n50"
+  }
+]

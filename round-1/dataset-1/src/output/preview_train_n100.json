@@ -1,0 +1,23 @@
+[
+  {
+    "text": "a turgid little history lesson , humourless and dull .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "a preposterously melodramatic paean to gang-member teens in brooklyn circa 1958 .",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  },
+  {
+    "text": "despite the surface attractions -- conrad l . hall's cinematography will likely be nominated for an oscar next year -- there's something impressive an...",
+    "label": 0,
+    "domain": "rotten_tomatoes",
+    "lineage_group": "pang_lee_lineage",
+    "split": "train_n100"
+  }
+]
