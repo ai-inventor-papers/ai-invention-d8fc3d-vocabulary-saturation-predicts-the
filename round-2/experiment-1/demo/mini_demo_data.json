@@ -1,0 +1,1259 @@
+{
+  "datasets": [
+    {
+      "dataset": "rotten_tomatoes",
+      "examples": [
+        {
+          "input": "a triumph , relentless and beautiful in its downbeat darkness .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "it's hard to imagine any recent film , independent or otherwise , that makes as much of a mess as this one .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "stripped almost entirely of such tools as nudity , profanity and violence , labute does manage to make a few points about modern man and his problematic quest for human connection .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "it's hard to fairly judge a film like ringu when you've seen the remake first . many of the effective horror elements are dampened through familiarity , [yet] are worthwhile .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "wildly incompetent but brilliantly named half past dead -- or for seagal pessimists : totally past his prime .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "this bond film goes off the beaten path , not necessarily for the better .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "late marriage's stiffness is unlikely to demonstrate the emotional clout to sweep u . s . viewers off their feet .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "despite the surface attractions -- conrad l . hall's cinematography will likely be nominated for an oscar next year -- there's something impressive and yet lacking about everything .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a breezy , diverting , conventional , well-acted tale of two men locked in an ongoing game of cat-and-cat .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "it's all gratuitous before long , as if schwentke were fulfilling a gross-out quota for an anticipated audience demographic instead of shaping the material to fit the story .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "\" auto focus \" works as an unusual biopic and document of male swingers in the playboy era",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a poignant and gently humorous parable that loves its characters and communicates something rather beautiful about human nature .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "[f]rom the performances and the cinematography to the outstanding soundtrack and unconventional narrative , the film is blazingly alive and admirable on many levels .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a celebration of quirkiness , eccentricity , and certain individuals' tendency to let it all hang out , and damn the consequences .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a preposterously melodramatic paean to gang-member teens in brooklyn circa 1958 .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "tsai convincingly paints a specifically urban sense of disassociation here .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "i'm giving it thumbs down due to the endlessly repetitive scenes of embarrassment . there's got to be a more graceful way of portraying the devastation of this disease .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "there aren't too many films that can be as simultaneously funny , offbeat and heartwarming ( without a thick shmear of the goo , at least ) , but \" elling \" manages to do all three quite well , making it one of the year's most enjoyable releases .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "michele is a such a brainless flibbertigibbet that it's hard to take her spiritual quest at all seriously .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "great story , bad idea for a movie .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "cho's timing is priceless .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "'[hopkins]doesn't so much phone in his performance as fax it . no , even that's too committed . he gets his secretary to fax it . \"",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "at its best , the good girl is a refreshingly adult take on adultery . . .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the master of disguise is funny--not \" ha ha \" funny , \" dead circus performer \" funny . and for all the wrong reasons besides .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "like the series , the movie is funny , smart , visually inventive , and most of all , alive .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "it's a bad thing when a movie has about as much substance as its end credits blooper reel .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "too bad kramer couldn't make a guest appearance to liven things up .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the problem with this film is that it lacks focus . i sympathize with the plight of these families , but the movie doesn't do a very good job conveying the issue at hand .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "essentially \" fatal attraction \" remade for viewers who were in diapers when the original was released in 1987 . . . . this story gets sillier , not scarier , as it goes along . . .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the film presents visceral and dangerously honest revelations about the men and machines behind the curtains of our planet .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a farce of a parody of a comedy of a premise , it isn't a comparison to reality so much as it is a commentary about our knowledge of films .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "how this one escaped the lifetime network i'll never know .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "you wouldn't want to live waydowntown , but it is a hilarious place to visit .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "may be spoofing an easy target -- those old '50's giant creature features -- but . . . it acknowledges and celebrates their cheesiness as the reason why people get a kick out of watching them today .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "visually striking and viscerally repellent .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "never inspires more than an interested detachment .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a preposterous , prurient whodunit .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "if the plot seems a bit on the skinny side , that's because panic room is interested in nothing more than sucking you in\u0085and making you sweat .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a well made indieflick in need of some trims and a more chemistry between its stars .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "there's not much to fatale , outside of its stylish surprises . . . but that's ok .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "well before it's over , beijing bicycle begins spinning its wheels .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "under 15 ? a giggle a minute . over age 15 ? big fat waste of time .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "that rare documentary that incorporates so much of human experience -- drama , conflict , tears and surprise -- that it transcends the normal divisions between fiction and nonfiction film .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "puts to rest any thought that the german film industry cannot make a delightful comedy centering on food .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a thoughtful , provocative , insistently humanizing film .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "nakata's technique is to imply terror by suggestion , rather than the overuse of special effects .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "includes too much obvious padding .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the origin story is well told , and the characters will not disappoint anyone who values the original comic books . it's in the action scenes that things fall apart .",
+          "output": "0",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a bittersweet film , simple in form but rich with human events .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "dong shows how intolerance has the power to deform families , then tear them apart .",
+          "output": "1",
+          "metadata_split": "train",
+          "metadata_train_min_n": 50,
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "you see robert de niro singing - and dancing to - west side story show tunes . choose your reaction : a . ) that sure is funny ! b . ) that sure is pathetic !",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a charmer from belgium .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a big-budget/all-star movie as unblinkingly pure as the hours is a distinct rarity , and an event .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "morton uses her face and her body language to bring us morvern's soul , even though the character is almost completely deadpan .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": ". . . a vivid , thoughtful , unapologetically raw coming-of-age tale full of sex , drugs and rock 'n' roll .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the cumulative effect of the movie is repulsive and depressing .",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "busy urban comedy is clearly not zhang's forte , his directorial touch is neither light nor magical enough to bring off this kind of whimsy .",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a movie that hovers somewhere between an acute character study and a trite power struggle .",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "those who aren't put off by the film's austerity will find it more than capable of rewarding them .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "sweetly sexy , funny and touching .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "it's absolutely amazing how first-time director kevin donovan managed to find something new to add to the canon of chan . make chan's action sequences boring .",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "nothing happens , and it happens to flat characters .",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "however sincere it may be , the rising place never quite justifies its own existence .",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the mushy finale turns john q into a movie-of-the-week tearjerker .",
+          "output": "0",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "an affectionately goofy satire that's unafraid to throw elbows when necessary . . .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "stands as a document of what it felt like to be a new yorker -- or , really , to be a human being -- in the weeks after 9/11 .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": ". . . it's as comprehensible as any dummies guide , something even non-techies can enjoy .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "an instance of an old dog not only learning but inventing a remarkable new trick .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the directive to protect the code at all costs also begins to blur as the importance of the man and the code merge",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "this odd , distant portuguese import more or less borrows from bad lieutenant and les vampires , and comes up with a kind of art-house gay porn film .",
+          "output": "1",
+          "metadata_split": "val",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "usually when i get this much syrup , i like pancakes to go with it .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a stylish thriller .",
+          "output": "1",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the dramatic scenes are frequently unintentionally funny , and the action sequences -- clearly the main event -- are surprisingly uninvolving .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "though it inspires some ( out-of-field ) creative thought , the film is -- to its own detriment -- much more a cinematic collage than a polemical tract .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "spain's greatest star wattage doesn't overcome the tumult of maudlin tragedy .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "those who are only mildly curious , i fear , will be put to sleep or bewildered by the artsy and often pointless visuals .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "first-time writer-director dylan kidd also has a good ear for dialogue , and the characters sound like real people .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "if you really want to understand what this story is really all about , you're far better served by the source material .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": ". . . a visually seductive , unrepentantly trashy take on rice's second installment of her vampire chronicles .",
+          "output": "1",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "julie davis is the kathie lee gifford of film directors , sadly proving once again ego doesn't always go hand in hand with talent .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a generous , inspiring film that unfolds with grace and humor and gradually becomes a testament to faith .",
+          "output": "1",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "good , solid storytelling .",
+          "output": "1",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a . . . cynical and serious look at teenage boys doing what they do best - being teenagers .",
+          "output": "1",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "an intelligent , earnest , intimate film that drops the ball only when it pauses for blunt exposition to make sure you're getting its metaphysical point .",
+          "output": "1",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "jonathan parker's bartleby should have been the be-all-end-all of the modern-office anomie films .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a cumbersome and cliche-ridden movie greased with every emotional device known to man .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "like the rugrats movies , the wild thornberrys movie doesn't offer much more than the series , but its emphasis on caring for animals and respecting other cultures is particularly welcome .",
+          "output": "1",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "if this is an example of the type of project that robert redford's lab is willing to lend its imprimatur to , then perhaps it's time to rethink independent films .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the movie is virtually without context -- journalistic or historical . what's worse is that pelosi knows it .",
+          "output": "0",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "no worse a film than breaking out , and breaking out was utterly charming .",
+          "output": "1",
+          "metadata_split": "test",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "this filmed tosca -- not the first , by the way -- is a pretty good job , if it's filmed tosca that you want . i'll stay with the stage versions , however , which bite cleaner , and deeper .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "frailty isn't as gory or explicit . but in its child-centered , claustrophobic context , it can be just as frightening and disturbing -- even punishing .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "without resorting to hyperbole , i can state that kissing jessica stein may be the best same-sex romance i have seen .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a film that will enthrall the whole family .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the movie is as far as you can get from racy , to the point where it almost stops the blood flow to your brain ; it has a dull , costumey feel .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a witty , whimsical feature debut .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "boasting some of the most poorly staged and lit action in memory , impostor is as close as you can get to an imitation movie .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "painfully padded .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "vampire epic succeeds as spooky action-packed trash of the highest order .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "amari has dressed up this little parable in a fairly irresistible package full of privileged moments and memorable performances .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "another big , dumb action movie in the vein of xxx , the transporter is riddled with plot holes big enough for its titular hero to drive his sleek black bmw through .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "just like every other seagal movie , only louder and without that silly ponytail .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "it's rare that a movie can be as intelligent as this one is in every regard except its storyline ; everything that's good is ultimately scuttled by a plot that's just too boring and obvious .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the two leads are almost good enough to camouflage the dopey plot , but so much naturalistic small talk , delivered in almost muffled exchanges , eventually has a lulling effect .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a graceless , witless attempt at mating some like it hot with the wwii espionage thriller .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "will grab your children by the imagination and amaze them and amuse them .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a fascinating , dark thriller that keeps you hooked on the delicious pulpiness of its lurid fiction .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the screenplay , co-written by director imogen kimmel , lacks the wit necessary to fully exploit the comic elements of the premise , making the proceedings more bizarre than actually amusing .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the sweetest thing leaves a bitter taste .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "not only better than its predecessor , it may rate as the most magical and most fun family fare of this or any recent holiday season .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "george clooney , in his first directorial effort , presents this utterly ridiculous shaggy dog story as one of the most creative , energetic and original comedies to hit the screen in years .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "adams , with four scriptwriters , takes care with the characters , who are so believable that you feel what they feel .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "films about loss , grief and recovery are pretty valuable these days . seen in that light , moonlight mile should strike a nerve in many .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a charming , quirky and leisurely paced scottish comedy -- except with an outrageous central gimmick that could have been a reject from monty python's meaning of life .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "brian tufano's handsome widescreen photography and paul grabowsky's excellent music turn this fairly parochial melodrama into something really rather special .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a frustrating 'tweener' -- too slick , contrived and exploitative for the art houses and too cynical , small and decadent for the malls .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "nicole holofcener's lovely and amazing , from her own screenplay , jumps to the head of the class of women's films that manage to avoid the ghetto of sentimental chick-flicks by treating female follies with a satirical style .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "like a documentary version of fight club , shorn of social insight , intellectual pretension and cinematic interest .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "who is this movie for ? not kids , who don't need the lesson in repugnance . it's also not smart or barbed enough for older viewers -- not everyone thinks poo-poo jokes are 'edgy . '",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "with its hint of an awkward hitchcockian theme in tact , harmon's daunting narrative promotes a reasonable landscape of conflict and pathos to support the scattershot terrorizing tone",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "ryan gosling is , in a word , brilliant as the conflicted daniel .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "it strikes hardest\u0085 when it reminds you how pertinent its dynamics remain . fifty years after the fact , the world's political situation seems little different , and [director phillip] noyce brings out the allegory with remarkable skill .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "strong setup and ambitious goals fade as the film descends into unsophisticated scare tactics and b-film thuggery .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "too damn weird to pass up , and for the blacklight crowd , way cheaper ( and better ) than pink floyd tickets .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "according to wendigo , 'nature' loves the members of the upper class almost as much as they love themselves .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "well-meaning to a fault , antwone fisher manages the dubious feat of turning one man's triumph of will into everyman's romance comedy .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "skip the film and buy the philip glass soundtrack cd .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the story is far-flung , illogical , and plain stupid .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a tour de force drama about the astonishingly pivotal role of imagination in the soulful development of two rowdy teenagers .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "there is only so much baked cardboard i need to chew .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "entertaining despite its one-joke premise with the thesis that women from venus and men from mars can indeed get together .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "to call the other side of heaven \" appalling \" would be to underestimate just how dangerous entertainments like it can be .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "melanie eventually slugs the yankee . too bad the former murphy brown doesn't pop reese back .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "a portrait of an artist .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "not a film for the faint of heart or conservative of spirit , but for the rest of us -- especially san francisco lovers -- it's a spirited film and a must-see .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "like kubrick , soderbergh isn't afraid to try any genre and to do it his own way .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "sch\u00fctte's dramatic snapshot of the artist three days before his death offers an interesting bit of speculation as to the issues brecht faced as his life drew to a close .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "all three women deliver remarkable performances .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "it's the movie equivalent of a sweaty old guy in a rain coat shopping for cheap porn .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "good car chases , great fight scenes , and a distinctive blend of european , american and asian influences .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "the experience of watching blobby old-school cgi animation in this superlarge format is just surreal enough to be diverting .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "stay clear of reminding yourself that it's a \" true story \" and you're likely to have one helluva time at the movies .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "would that greengrass had gone a tad less for grit and a lot more for intelligibility .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "this time kaufman's imagination has failed him .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "far too clever by half , howard's film is really a series of strung-together moments , with all the spaces in between filled with fantasies , daydreams , memories and one fantastic visual trope after another .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "this is more fascinating -- being real -- than anything seen on jerry springer .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "characterisation has been sacrificed for the sake of spectacle .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "it is as uncompromising as it is nonjudgmental , and makes clear that a prostitute can be as lonely and needy as any of the clients .",
+          "output": "1",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "for a film that celebrates radical , nonconformist values , what to do in case of fire ? lazily and glumly settles into a most traditional , reserved kind of filmmaking .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        },
+        {
+          "input": "this is for the most part a useless movie , even with a great director at the helm .",
+          "output": "0",
+          "metadata_split": "unlabeled_pool",
+          "metadata_lineage_group": "pang_lee_lineage",
+          "metadata_task_type": "classification",
+          "metadata_n_classes": 2
+        }
+      ]
+    }
+  ]
+}
