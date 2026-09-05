@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "evaluation_name": "power_checked_stats_and_cost_tradeoff",
+    "description": "Power/MDE analysis of the gap-vs-unseen-mass Spearman correlations, within-2x calibrate/predict scorecard, bootstrap/permutation crossover significance check, wall-clock-cost-vs-accuracy-gain table, and a fixed-epoch training-bias audit, evaluating art__VSV4YQ0_oJD's TF-IDF vs DistilBERT crossover experiment.",
+    "source_experiment_dependency": "art__VSV4YQ0_oJD"
+  },
+  "metrics_agg": {
+    "power_achieved_rotten_tomatoes": 0.03185801477326741,
+    "mde_80pct_rotten_tomatoes": 0.9926547588414595,
+    "power_achieved_sst2": 0.039439184997697885,
+    "mde_80pct_sst2": 0.9926547588414595,
+    "scorecard_n_evaluable": 0,
+    "scorecard_n_not_evaluable": 2,
+    "scorecard_n_within_2x": 0,
+    "bootstrap_applicable": 0,
+    "cost_tfidf_runtime_measured": 0.0,
+    "epochs_tuned_per_n": 1.0
+  },
+  "datasets": [
+    {
+      "dataset": "power_analysis_spearman_gap_vs_unseen",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes spearman_power_analysis",
+          "output": "rho=0.105409 pval=0.894591 n_points=4 achieved_power=0.0319 mde_80pct=0.9927",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n_points": 4,
+          "metadata_observed_rho": 0.10540925533894598,
+          "metadata_observed_pval": 0.894590744661054,
+          "metadata_achieved_power_at_observed_rho": 0.03185801477326741,
+          "metadata_min_detectable_effect_at_80pct_power": 0.9926547588414595,
+          "metadata_observed_inside_detectable_range": true,
+          "metadata_power_qualified_verdict": "At n=4, this test could only detect |rho|>=0.993 at 80% power; the observed rho=0.105 is inside that detectable range, so absence of a large effect can be concluded, only that the test lacked power to detect a small-to-moderate one.",
+          "predict_achieved_power": "0.0319",
+          "eval_achieved_power": 0.03185801477326741,
+          "eval_mde_80pct": 0.9926547588414595
+        },
+        {
+          "input": "domain=sst2 spearman_power_analysis",
+          "output": "rho=-0.200000 pval=0.800000 n_points=4 achieved_power=0.0394 mde_80pct=0.9927",
+          "metadata_domain": "sst2",
+          "metadata_n_points": 4,
+          "metadata_observed_rho": -0.19999999999999998,
+          "metadata_observed_pval": 0.8,
+          "metadata_achieved_power_at_observed_rho": 0.039439184997697885,
+          "metadata_min_detectable_effect_at_80pct_power": 0.9926547588414595,
+          "metadata_observed_inside_detectable_range": true,
+          "metadata_power_qualified_verdict": "At n=4, this test could only detect |rho|>=0.993 at 80% power; the observed rho=-0.200 is inside that detectable range, so absence of a large effect can be concluded, only that the test lacked power to detect a small-to-moderate one.",
+          "predict_achieved_power": "0.0394",
+          "eval_achieved_power": 0.039439184997697885,
+          "eval_mde_80pct": 0.9926547588414595
+        }
+      ]
+    },
+    {
+      "dataset": "within_2x_calibrate_predict_scorecard",
+      "examples": [
+        {
+          "input": "calibrate_on=rotten_tomatoes predict_on=sst2",
+          "output": "status=not_evaluable",
+          "metadata_calibrate_on": "rotten_tomatoes",
+          "metadata_predict_on": "sst2",
+          "metadata_status": "not_evaluable",
+          "metadata_reason": "no finite empirical crossover in tested range for this domain/model",
+          "metadata_n_true_star": null,
+          "metadata_n_hat_star": null,
+          "metadata_ratio": null,
+          "metadata_within_2x": null,
+          "predict_within_2x": "not_evaluable"
+        },
+        {
+          "input": "calibrate_on=sst2 predict_on=rotten_tomatoes",
+          "output": "status=not_evaluable",
+          "metadata_calibrate_on": "sst2",
+          "metadata_predict_on": "rotten_tomatoes",
+          "metadata_status": "not_evaluable",
+          "metadata_reason": "no finite empirical crossover in tested range for this domain/model",
+          "metadata_n_true_star": null,
+          "metadata_n_hat_star": null,
+          "metadata_ratio": null,
+          "metadata_within_2x": null,
+          "predict_within_2x": "not_evaluable"
+        },
+        {
+          "input": "scorecard_tally",
+          "output": "0 evaluable, 2 not-evaluable, of which 0 within 2x",
+          "metadata_tally_sentence": "0 evaluable, 2 not-evaluable, of which 0 within 2x",
+          "metadata_n_evaluable": 0,
+          "metadata_n_not_evaluable": 2,
+          "metadata_n_within_2x": 0
+        }
+      ]
+    },
+    {
+      "dataset": "bootstrap_permutation_crossover_test",
+      "examples": [
+        {
+          "input": "bootstrap_permutation_crossover_test",
+          "output": "NOT_APPLICABLE: no finite crossover in loaded data",
+          "metadata_status": "skipped_no_finite_crossover",
+          "metadata_reason": "NO FINITE EMPIRICAL CROSSOVER exists in any loaded domain (DistilBERT leads TF-IDF+LR at every tested n on both rotten_tomatoes and sst2). Bootstrap/permutation CI on a crossover index is therefore not computable and is skipped rather than fabricated -- there is no crossover event to resample. A permutation test of 'DistilBERT crosses above TF-IDF at some tested n' is also vacuous here: DistilBERT is already ahead at the smallest tested n (50) in every domain, so there is no ordering-flip event for a label-shuffle null to be compared against.",
+          "metadata_domains_checked": [
+            "rotten_tomatoes",
+            "sst2"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset": "wallclock_cost_vs_accuracy_table",
+      "examples": [
+        {
+          "input": "n=50 cost_vs_accuracy",
+          "output": "tfidf_cpu_s_est=0.150 db_cpu_s_measured=26.090805172920227 ratio=173.93870115280149 accuracy_gap_pp=15.906249999999995 labels_needed_for_tfidf=1549 (linearly extrapolated beyond tested range)",
+          "metadata_n": 50,
+          "metadata_tfidf_cpu_seconds_ESTIMATED": 0.15000000000000002,
+          "metadata_distilbert_cpu_seconds_MEASURED": 26.090805172920227,
+          "metadata_cost_ratio_db_over_tfidf": 173.93870115280149,
+          "metadata_accuracy_gap_pp": 15.906249999999995,
+          "metadata_labels_needed_for_tfidf_to_match": "1549 (linearly extrapolated beyond tested range)",
+          "metadata_extra_cpu_seconds_per_accuracy_point_gained": 1.6308561208908596,
+          "eval_cost_ratio": 173.93870115280149
+        },
+        {
+          "input": "n=200 cost_vs_accuracy",
+          "output": "tfidf_cpu_s_est=0.450 db_cpu_s_measured=88.540174305439 ratio=196.75594290097553 accuracy_gap_pp=22.75 labels_needed_for_tfidf=3217 (linearly extrapolated beyond tested range)",
+          "metadata_n": 200,
+          "metadata_tfidf_cpu_seconds_ESTIMATED": 0.45,
+          "metadata_distilbert_cpu_seconds_MEASURED": 88.540174305439,
+          "metadata_cost_ratio_db_over_tfidf": 196.75594290097553,
+          "metadata_accuracy_gap_pp": 22.75,
+          "metadata_labels_needed_for_tfidf_to_match": "3217 (linearly extrapolated beyond tested range)",
+          "metadata_extra_cpu_seconds_per_accuracy_point_gained": 3.87209557386545,
+          "eval_cost_ratio": 196.75594290097553
+        },
+        {
+          "input": "n=500 cost_vs_accuracy",
+          "output": "tfidf_cpu_s_est=1.050 db_cpu_s_measured=205.4662280678749 ratio=195.68212196940468 accuracy_gap_pp=21.0625 labels_needed_for_tfidf=3482 (linearly extrapolated beyond tested range)",
+          "metadata_n": 500,
+          "metadata_tfidf_cpu_seconds_ESTIMATED": 1.05,
+          "metadata_distilbert_cpu_seconds_MEASURED": 205.4662280678749,
+          "metadata_cost_ratio_db_over_tfidf": 195.68212196940468,
+          "metadata_accuracy_gap_pp": 21.0625,
+          "metadata_labels_needed_for_tfidf_to_match": "3482 (linearly extrapolated beyond tested range)",
+          "metadata_extra_cpu_seconds_per_accuracy_point_gained": 9.705221510640945,
+          "eval_cost_ratio": 195.68212196940468
+        },
+        {
+          "input": "n=1000 cost_vs_accuracy",
+          "output": "tfidf_cpu_s_est=2.050 db_cpu_s_measured=367.49174388249713 ratio=179.26426530853522 accuracy_gap_pp=17.75 labels_needed_for_tfidf=3513 (linearly extrapolated beyond tested range)",
+          "metadata_n": 1000,
+          "metadata_tfidf_cpu_seconds_ESTIMATED": 2.05,
+          "metadata_distilbert_cpu_seconds_MEASURED": 367.49174388249713,
+          "metadata_cost_ratio_db_over_tfidf": 179.26426530853522,
+          "metadata_accuracy_gap_pp": 17.75,
+          "metadata_labels_needed_for_tfidf_to_match": "3513 (linearly extrapolated beyond tested range)",
+          "metadata_extra_cpu_seconds_per_accuracy_point_gained": 20.588267260985752,
+          "eval_cost_ratio": 179.26426530853522
+        },
+        {
+          "input": "cost_table_verdict",
+          "output": "Since DistilBERT wins at every tested n in the loaded data (no finite crossover on either domain), the honest answer to 'when is switching worth it' in the tested regime (n<=1000) is: ALWAYS, if CPU-seconds are the only cost -- DistilBERT is both more accurate and its per-accuracy-point compute cost is what the table above quantifies directly, not merely asserted. However this compute-only framing ignores LABELING cost, which the hypothesis's own motivation treats as the actually scarce resource: TF-IDF+LR and DistilBERT are trained on the SAME n labeled examples at each row of this table, so a compute-only comparison says nothing about whether TF-IDF could match DistilBERT's accuracy with additional (cheaper to obtain) labels instead of a better model. The 'labels needed for TF-IDF to match DistilBERT's accuracy at this n' column is the labeling-budget framing, and the two must not be conflated: compute-only says switch models; labeling-budget asks whether it would instead be cheaper to just label more TF-IDF data, which this table's TF-IDF curve extrapolation is used to estimate, separately from compute.",
+          "metadata_verdict_paragraph": "Since DistilBERT wins at every tested n in the loaded data (no finite crossover on either domain), the honest answer to 'when is switching worth it' in the tested regime (n<=1000) is: ALWAYS, if CPU-seconds are the only cost -- DistilBERT is both more accurate and its per-accuracy-point compute cost is what the table above quantifies directly, not merely asserted. However this compute-only framing ignores LABELING cost, which the hypothesis's own motivation treats as the actually scarce resource: TF-IDF+LR and DistilBERT are trained on the SAME n labeled examples at each row of this table, so a compute-only comparison says nothing about whether TF-IDF could match DistilBERT's accuracy with additional (cheaper to obtain) labels instead of a better model. The 'labels needed for TF-IDF to match DistilBERT's accuracy at this n' column is the labeling-budget framing, and the two must not be conflated: compute-only says switch models; labeling-budget asks whether it would instead be cheaper to just label more TF-IDF data, which this table's TF-IDF curve extrapolation is used to estimate, separately from compute.",
+          "metadata_tfidf_runtime_logged": false,
+          "metadata_distilbert_runtime_logged": true
+        }
+      ]
+    },
+    {
+      "dataset": "fixed_epoch_training_bias_audit",
+      "examples": [
+        {
+          "input": "fixed_epoch_training_bias_audit",
+          "output": "epochs_tuned_per_n=True concern_applies=False",
+          "metadata_epoch_tiers_found_in_method_py": {
+            "50": 5,
+            "200": 4,
+            "500": 3,
+            "1000": 3,
+            "1500": 2,
+            "2000": 2
+          },
+          "metadata_epochs_tuned_per_n": true,
+          "metadata_fixed_epoch_bias_concern_applies": false,
+          "metadata_reasoning": "epochs was NOT fixed across the sweep: method.py's _EPOCH_TIERS = {50: 5, 200: 4, 500: 3, 1000: 3, 1500: 2, 2000: 2} assigns MORE epochs at small n (5 at n=50, 4 at n=200) and FEWER epochs at large n (3 at n=500/1000, 2 at n=1500/2000). This is per-n epoch tuning explicitly aimed at compensating for less data per epoch at small n, so the 'fixed-epoch undertraining bias' concern this deliverable is designed to check for does NOT apply here -- the concern is stated explicitly rather than silently waved away, and the sweep's actual code contradicts the premise that epochs were held constant.",
+          "metadata_curve_shape_notes": [
+            "rotten_tomatoes: DistilBERT accuracy plateaued/flat between the last two tested n (500->1000: 0.8325->0.8250, delta=-0.0075); max n tested in this run's grid = 1000 (note: the artifact plan describes a grid extending to n=2000, but this dependency's degraded/actual grid only reaches n=1000)",
+            "sst2: DistilBERT accuracy still rising between the last two tested n (500->1000: 0.8406->0.8525, delta=0.0119); max n tested in this run's grid = 1000 (note: the artifact plan describes a grid extending to n=2000, but this dependency's degraded/actual grid only reaches n=1000)"
+          ],
+          "metadata_full_verdict": "epochs was NOT fixed across the sweep: method.py's _EPOCH_TIERS = {50: 5, 200: 4, 500: 3, 1000: 3, 1500: 2, 2000: 2} assigns MORE epochs at small n (5 at n=50, 4 at n=200) and FEWER epochs at large n (3 at n=500/1000, 2 at n=1500/2000). This is per-n epoch tuning explicitly aimed at compensating for less data per epoch at small n, so the 'fixed-epoch undertraining bias' concern this deliverable is designed to check for does NOT apply here -- the concern is stated explicitly rather than silently waved away, and the sweep's actual code contradicts the premise that epochs were held constant. Curve-shape check: rotten_tomatoes: DistilBERT accuracy plateaued/flat between the last two tested n (500->1000: 0.8325->0.8250, delta=-0.0075); max n tested in this run's grid = 1000 (note: the artifact plan describes a grid extending to n=2000, but this dependency's degraded/actual grid only reaches n=1000) | sst2: DistilBERT accuracy still rising between the last two tested n (500->1000: 0.8406->0.8525, delta=0.0119); max n tested in this run's grid = 1000 (note: the artifact plan describes a grid extending to n=2000, but this dependency's degraded/actual grid only reaches n=1000)"
+        }
+      ]
+    },
+    {
+      "dataset": "dependency_availability_note",
+      "examples": [
+        {
+          "input": "dependency_grid_check",
+          "output": "only one experiment dependency (art__VSV4YQ0_oJD) was provided; no second/sibling experiment was attached at execution time, so the pooled/expanded-grid bonus described in the artifact plan is not available -- all deliverables are computed against this single experiment's n=4-per-domain grid.",
+          "metadata_n_experiment_dependencies_found": 1,
+          "metadata_domains_available": [
+            "rotten_tomatoes",
+            "sst2"
+          ],
+          "metadata_ns_available": [
+            50,
+            200,
+            500,
+            1000
+          ]
+        }
+      ]
+    }
+  ]
+}

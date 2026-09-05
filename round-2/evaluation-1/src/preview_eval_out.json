@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "evaluation_name": "power_checked_stats_and_cost_tradeoff",
+    "description": "Power/MDE analysis of the gap-vs-unseen-mass Spearman correlations, within-2x calibrate/predict scorecard, bootstrap/permutation crossover significance check, wall-clock-cost-vs-accuracy-gain table, a...",
+    "source_experiment_dependency": "art__VSV4YQ0_oJD"
+  },
+  "metrics_agg": {
+    "power_achieved_rotten_tomatoes": 0.03185801477326741,
+    "mde_80pct_rotten_tomatoes": 0.9926547588414595,
+    "power_achieved_sst2": 0.039439184997697885,
+    "mde_80pct_sst2": 0.9926547588414595,
+    "scorecard_n_evaluable": 0,
+    "scorecard_n_not_evaluable": 2,
+    "scorecard_n_within_2x": 0,
+    "bootstrap_applicable": 0,
+    "cost_tfidf_runtime_measured": 0.0,
+    "epochs_tuned_per_n": 1.0
+  },
+  "datasets": [
+    {
+      "dataset": "power_analysis_spearman_gap_vs_unseen",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes spearman_power_analysis",
+          "output": "rho=0.105409 pval=0.894591 n_points=4 achieved_power=0.0319 mde_80pct=0.9927",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n_points": 4,
+          "metadata_observed_rho": 0.10540925533894598,
+          "metadata_observed_pval": 0.894590744661054,
+          "metadata_achieved_power_at_observed_rho": 0.03185801477326741,
+          "metadata_min_detectable_effect_at_80pct_power": 0.9926547588414595,
+          "metadata_observed_inside_detectable_range": true,
+          "metadata_power_qualified_verdict": "At n=4, this test could only detect |rho|>=0.993 at 80% power; the observed rho=0.105 is inside that detectable range, so absence of a large effect can be concluded, only that the test lacked power to...",
+          "predict_achieved_power": "0.0319",
+          "eval_achieved_power": 0.03185801477326741,
+          "eval_mde_80pct": 0.9926547588414595
+        },
+        {
+          "input": "domain=sst2 spearman_power_analysis",
+          "output": "rho=-0.200000 pval=0.800000 n_points=4 achieved_power=0.0394 mde_80pct=0.9927",
+          "metadata_domain": "sst2",
+          "metadata_n_points": 4,
+          "metadata_observed_rho": -0.19999999999999998,
+          "metadata_observed_pval": 0.8,
+          "metadata_achieved_power_at_observed_rho": 0.039439184997697885,
+          "metadata_min_detectable_effect_at_80pct_power": 0.9926547588414595,
+          "metadata_observed_inside_detectable_range": true,
+          "metadata_power_qualified_verdict": "At n=4, this test could only detect |rho|>=0.993 at 80% power; the observed rho=-0.200 is inside that detectable range, so absence of a large effect can be concluded, only that the test lacked power t...",
+          "predict_achieved_power": "0.0394",
+          "eval_achieved_power": 0.039439184997697885,
+          "eval_mde_80pct": 0.9926547588414595
+        }
+      ]
+    },
+    {
+      "dataset": "within_2x_calibrate_predict_scorecard",
+      "examples": [
+        {
+          "input": "calibrate_on=rotten_tomatoes predict_on=sst2",
+          "output": "status=not_evaluable",
+          "metadata_calibrate_on": "rotten_tomatoes",
+          "metadata_predict_on": "sst2",
+          "metadata_status": "not_evaluable",
+          "metadata_reason": "no finite empirical crossover in tested range for this domain/model",
+          "metadata_n_true_star": null,
+          "metadata_n_hat_star": null,
+          "metadata_ratio": null,
+          "metadata_within_2x": null,
+          "predict_within_2x": "not_evaluable"
+        },
+        {
+          "input": "calibrate_on=sst2 predict_on=rotten_tomatoes",
+          "output": "status=not_evaluable",
+          "metadata_calibrate_on": "sst2",
+          "metadata_predict_on": "rotten_tomatoes",
+          "metadata_status": "not_evaluable",
+          "metadata_reason": "no finite empirical crossover in tested range for this domain/model",
+          "metadata_n_true_star": null,
+          "metadata_n_hat_star": null,
+          "metadata_ratio": null,
+          "metadata_within_2x": null,
+          "predict_within_2x": "not_evaluable"
+        },
+        {
+          "input": "scorecard_tally",
+          "output": "0 evaluable, 2 not-evaluable, of which 0 within 2x",
+          "metadata_tally_sentence": "0 evaluable, 2 not-evaluable, of which 0 within 2x",
+          "metadata_n_evaluable": 0,
+          "metadata_n_not_evaluable": 2,
+          "metadata_n_within_2x": 0
+        }
+      ]
+    },
+    {
+      "dataset": "bootstrap_permutation_crossover_test",
+      "examples": [
+        {
+          "input": "bootstrap_permutation_crossover_test",
+          "output": "NOT_APPLICABLE: no finite crossover in loaded data",
+          "metadata_status": "skipped_no_finite_crossover",
+          "metadata_reason": "NO FINITE EMPIRICAL CROSSOVER exists in any loaded domain (DistilBERT leads TF-IDF+LR at every tested n on both rotten_tomatoes and sst2). Bootstrap/permutation CI on a crossover index is therefore no...",
+          "metadata_domains_checked": [
+            "rotten_tomatoes",
+            "sst2"
+          ]
+        }
+      ]
+    }
+  ]
+}
