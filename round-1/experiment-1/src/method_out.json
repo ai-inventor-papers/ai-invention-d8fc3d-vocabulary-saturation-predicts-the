@@ -1,0 +1,1073 @@
+{
+  "metadata": {
+    "method_name": "tfidf_vs_distilbert_crossover_with_gt_predictor",
+    "description": "Empirical accuracy-vs-n crossover between TF-IDF+LR and CPU-fine-tuned DistilBERT, plus a label-free Good-Turing/Chao1 unseen-vocabulary-mass predictor of that crossover, tested for cross-domain transfer.",
+    "parameters": {
+      "NS": [
+        50,
+        200,
+        500,
+        1000
+      ],
+      "SEEDS": [
+        0,
+        1
+      ],
+      "DOMAINS": [
+        "rotten_tomatoes",
+        "sst2"
+      ],
+      "PILOT_NS": [
+        100,
+        200,
+        400
+      ],
+      "VOCAB_METHODS": [
+        "mi",
+        "freq"
+      ],
+      "MAX_LEN": 64,
+      "TEST_N": 800
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "raw_results",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes n=50 seed=0",
+          "output": "acc_tfidf=0.5413 acc_distilbert=0.6525",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 50,
+          "metadata_seed": 0,
+          "metadata_acc_tfidf": 0.54125,
+          "metadata_acc_distilbert": 0.6525,
+          "metadata_db_train_secs": 20.329676389694214,
+          "predict_tfidf_lr_acc": "0.5413",
+          "predict_distilbert_acc": "0.6525"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=50 seed=1",
+          "output": "acc_tfidf=0.5312 acc_distilbert=0.7250",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 50,
+          "metadata_seed": 1,
+          "metadata_acc_tfidf": 0.53125,
+          "metadata_acc_distilbert": 0.725,
+          "metadata_db_train_secs": 27.481956958770752,
+          "predict_tfidf_lr_acc": "0.5312",
+          "predict_distilbert_acc": "0.7250"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=200 seed=0",
+          "output": "acc_tfidf=0.5988 acc_distilbert=0.7987",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 200,
+          "metadata_seed": 0,
+          "metadata_acc_tfidf": 0.59875,
+          "metadata_acc_distilbert": 0.79875,
+          "metadata_db_train_secs": 93.5441300868988,
+          "predict_tfidf_lr_acc": "0.5988",
+          "predict_distilbert_acc": "0.7987"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=200 seed=1",
+          "output": "acc_tfidf=0.6125 acc_distilbert=0.8150",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 200,
+          "metadata_seed": 1,
+          "metadata_acc_tfidf": 0.6125,
+          "metadata_acc_distilbert": 0.815,
+          "metadata_db_train_secs": 74.47636437416077,
+          "predict_tfidf_lr_acc": "0.6125",
+          "predict_distilbert_acc": "0.8150"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=500 seed=0",
+          "output": "acc_tfidf=0.6375 acc_distilbert=0.8250",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 500,
+          "metadata_seed": 0,
+          "metadata_acc_tfidf": 0.6375,
+          "metadata_acc_distilbert": 0.825,
+          "metadata_db_train_secs": 189.15354323387146,
+          "predict_tfidf_lr_acc": "0.6375",
+          "predict_distilbert_acc": "0.8250"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=500 seed=1",
+          "output": "acc_tfidf=0.6512 acc_distilbert=0.8400",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 500,
+          "metadata_seed": 1,
+          "metadata_acc_tfidf": 0.65125,
+          "metadata_acc_distilbert": 0.84,
+          "metadata_db_train_secs": 208.10752630233765,
+          "predict_tfidf_lr_acc": "0.6512",
+          "predict_distilbert_acc": "0.8400"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=1000 seed=0",
+          "output": "acc_tfidf=0.6725 acc_distilbert=0.8250",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 1000,
+          "metadata_seed": 0,
+          "metadata_acc_tfidf": 0.6725,
+          "metadata_acc_distilbert": 0.825,
+          "metadata_db_train_secs": 349.93944239616394,
+          "predict_tfidf_lr_acc": "0.6725",
+          "predict_distilbert_acc": "0.8250"
+        },
+        {
+          "input": "domain=sst2 n=50 seed=0",
+          "output": "acc_tfidf=0.5400 acc_distilbert=0.7212",
+          "metadata_domain": "sst2",
+          "metadata_n": 50,
+          "metadata_seed": 0,
+          "metadata_acc_tfidf": 0.54,
+          "metadata_acc_distilbert": 0.72125,
+          "metadata_db_train_secs": 35.06080508232117,
+          "predict_tfidf_lr_acc": "0.5400",
+          "predict_distilbert_acc": "0.7212"
+        },
+        {
+          "input": "domain=sst2 n=50 seed=1",
+          "output": "acc_tfidf=0.5513 acc_distilbert=0.7013",
+          "metadata_domain": "sst2",
+          "metadata_n": 50,
+          "metadata_seed": 1,
+          "metadata_acc_tfidf": 0.55125,
+          "metadata_acc_distilbert": 0.70125,
+          "metadata_db_train_secs": 21.490782260894775,
+          "predict_tfidf_lr_acc": "0.5513",
+          "predict_distilbert_acc": "0.7013"
+        },
+        {
+          "input": "domain=sst2 n=200 seed=0",
+          "output": "acc_tfidf=0.5775 acc_distilbert=0.8325",
+          "metadata_domain": "sst2",
+          "metadata_n": 200,
+          "metadata_seed": 0,
+          "metadata_acc_tfidf": 0.5775,
+          "metadata_acc_distilbert": 0.8325,
+          "metadata_db_train_secs": 103.66153478622437,
+          "predict_tfidf_lr_acc": "0.5775",
+          "predict_distilbert_acc": "0.8325"
+        },
+        {
+          "input": "domain=sst2 n=200 seed=1",
+          "output": "acc_tfidf=0.5725 acc_distilbert=0.8250",
+          "metadata_domain": "sst2",
+          "metadata_n": 200,
+          "metadata_seed": 1,
+          "metadata_acc_tfidf": 0.5725,
+          "metadata_acc_distilbert": 0.825,
+          "metadata_db_train_secs": 82.47866797447205,
+          "predict_tfidf_lr_acc": "0.5725",
+          "predict_distilbert_acc": "0.8250"
+        },
+        {
+          "input": "domain=sst2 n=500 seed=0",
+          "output": "acc_tfidf=0.6075 acc_distilbert=0.8550",
+          "metadata_domain": "sst2",
+          "metadata_n": 500,
+          "metadata_seed": 0,
+          "metadata_acc_tfidf": 0.6075,
+          "metadata_acc_distilbert": 0.855,
+          "metadata_db_train_secs": 215.55507516860962,
+          "predict_tfidf_lr_acc": "0.6075",
+          "predict_distilbert_acc": "0.8550"
+        },
+        {
+          "input": "domain=sst2 n=500 seed=1",
+          "output": "acc_tfidf=0.6075 acc_distilbert=0.8263",
+          "metadata_domain": "sst2",
+          "metadata_n": 500,
+          "metadata_seed": 1,
+          "metadata_acc_tfidf": 0.6075,
+          "metadata_acc_distilbert": 0.82625,
+          "metadata_db_train_secs": 209.0487675666809,
+          "predict_tfidf_lr_acc": "0.6075",
+          "predict_distilbert_acc": "0.8263"
+        },
+        {
+          "input": "domain=sst2 n=1000 seed=0",
+          "output": "acc_tfidf=0.6663 acc_distilbert=0.8575",
+          "metadata_domain": "sst2",
+          "metadata_n": 1000,
+          "metadata_seed": 0,
+          "metadata_acc_tfidf": 0.66625,
+          "metadata_acc_distilbert": 0.8575,
+          "metadata_db_train_secs": 379.7771646976471,
+          "predict_tfidf_lr_acc": "0.6663",
+          "predict_distilbert_acc": "0.8575"
+        },
+        {
+          "input": "domain=sst2 n=1000 seed=1",
+          "output": "acc_tfidf=0.6338 acc_distilbert=0.8475",
+          "metadata_domain": "sst2",
+          "metadata_n": 1000,
+          "metadata_seed": 1,
+          "metadata_acc_tfidf": 0.63375,
+          "metadata_acc_distilbert": 0.8475,
+          "metadata_db_train_secs": 372.7586245536804,
+          "predict_tfidf_lr_acc": "0.6338",
+          "predict_distilbert_acc": "0.8475"
+        }
+      ]
+    },
+    {
+      "dataset": "accuracy_curve",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes n=50",
+          "output": "mean_tfidf=0.5363+-0.0098 mean_db=0.6887+-0.0711 gap=0.1525",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 50,
+          "metadata_mean_tfidf": 0.53625,
+          "metadata_ci_tfidf": 0.009800000000000008,
+          "metadata_mean_db": 0.68875,
+          "metadata_ci_db": 0.07105,
+          "metadata_gap": 0.15249999999999997,
+          "metadata_n_seeds": 2,
+          "predict_tfidf_lr_mean_acc": "0.5363",
+          "predict_distilbert_mean_acc": "0.6887"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=200",
+          "output": "mean_tfidf=0.6056+-0.0135 mean_db=0.8069+-0.0159 gap=0.2012",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 200,
+          "metadata_mean_tfidf": 0.6056250000000001,
+          "metadata_ci_tfidf": 0.013475000000000037,
+          "metadata_mean_db": 0.806875,
+          "metadata_ci_db": 0.015924999999999984,
+          "metadata_gap": 0.20124999999999993,
+          "metadata_n_seeds": 2,
+          "predict_tfidf_lr_mean_acc": "0.6056",
+          "predict_distilbert_mean_acc": "0.8069"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=500",
+          "output": "mean_tfidf=0.6444+-0.0135 mean_db=0.8325+-0.0147 gap=0.1881",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 500,
+          "metadata_mean_tfidf": 0.6443749999999999,
+          "metadata_ci_tfidf": 0.013475000000000037,
+          "metadata_mean_db": 0.8325,
+          "metadata_ci_db": 0.014700000000000012,
+          "metadata_gap": 0.1881250000000001,
+          "metadata_n_seeds": 2,
+          "predict_tfidf_lr_mean_acc": "0.6444",
+          "predict_distilbert_mean_acc": "0.8325"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=1000",
+          "output": "mean_tfidf=0.6725+-0.0000 mean_db=0.8250+-0.0000 gap=0.1525",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 1000,
+          "metadata_mean_tfidf": 0.6725,
+          "metadata_ci_tfidf": 0.0,
+          "metadata_mean_db": 0.825,
+          "metadata_ci_db": 0.0,
+          "metadata_gap": 0.15249999999999997,
+          "metadata_n_seeds": 1,
+          "predict_tfidf_lr_mean_acc": "0.6725",
+          "predict_distilbert_mean_acc": "0.8250"
+        },
+        {
+          "input": "domain=sst2 n=50",
+          "output": "mean_tfidf=0.5456+-0.0110 mean_db=0.7112+-0.0196 gap=0.1656",
+          "metadata_domain": "sst2",
+          "metadata_n": 50,
+          "metadata_mean_tfidf": 0.545625,
+          "metadata_ci_tfidf": 0.011024999999999981,
+          "metadata_mean_db": 0.7112499999999999,
+          "metadata_ci_db": 0.01959999999999991,
+          "metadata_gap": 0.1656249999999999,
+          "metadata_n_seeds": 2,
+          "predict_tfidf_lr_mean_acc": "0.5456",
+          "predict_distilbert_mean_acc": "0.7112"
+        },
+        {
+          "input": "domain=sst2 n=200",
+          "output": "mean_tfidf=0.5750+-0.0049 mean_db=0.8287+-0.0074 gap=0.2538",
+          "metadata_domain": "sst2",
+          "metadata_n": 200,
+          "metadata_mean_tfidf": 0.575,
+          "metadata_ci_tfidf": 0.004900000000000004,
+          "metadata_mean_db": 0.82875,
+          "metadata_ci_db": 0.00735000000000006,
+          "metadata_gap": 0.25375000000000003,
+          "metadata_n_seeds": 2,
+          "predict_tfidf_lr_mean_acc": "0.5750",
+          "predict_distilbert_mean_acc": "0.8287"
+        },
+        {
+          "input": "domain=sst2 n=500",
+          "output": "mean_tfidf=0.6075+-0.0000 mean_db=0.8406+-0.0282 gap=0.2331",
+          "metadata_domain": "sst2",
+          "metadata_n": 500,
+          "metadata_mean_tfidf": 0.6075,
+          "metadata_ci_tfidf": 0.0,
+          "metadata_mean_db": 0.840625,
+          "metadata_ci_db": 0.028174999999999943,
+          "metadata_gap": 0.23312499999999992,
+          "metadata_n_seeds": 2,
+          "predict_tfidf_lr_mean_acc": "0.6075",
+          "predict_distilbert_mean_acc": "0.8406"
+        },
+        {
+          "input": "domain=sst2 n=1000",
+          "output": "mean_tfidf=0.6500+-0.0318 mean_db=0.8525+-0.0098 gap=0.2025",
+          "metadata_domain": "sst2",
+          "metadata_n": 1000,
+          "metadata_mean_tfidf": 0.65,
+          "metadata_ci_tfidf": 0.03184999999999997,
+          "metadata_mean_db": 0.8525,
+          "metadata_ci_db": 0.009800000000000008,
+          "metadata_gap": 0.2025,
+          "metadata_n_seeds": 2,
+          "predict_tfidf_lr_mean_acc": "0.6500",
+          "predict_distilbert_mean_acc": "0.8525"
+        }
+      ]
+    },
+    {
+      "dataset": "true_crossovers",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes",
+          "output": "n_star=None direction=distilbert_ahead_at_all_tested_n",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n_star": null,
+          "metadata_direction": "distilbert_ahead_at_all_tested_n",
+          "predict_empirical_crossover_n": "None"
+        },
+        {
+          "input": "domain=sst2",
+          "output": "n_star=None direction=distilbert_ahead_at_all_tested_n",
+          "metadata_domain": "sst2",
+          "metadata_n_star": null,
+          "metadata_direction": "distilbert_ahead_at_all_tested_n",
+          "predict_empirical_crossover_n": "None"
+        }
+      ]
+    },
+    {
+      "dataset": "coverage_curves",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes pilot_n=100 method=mi n=50",
+          "output": "unseen_mean=0.5370+-0.0130",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 100,
+          "metadata_method": "mi",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.5369829683698296,
+          "metadata_unseen_ci": 0.012963923770984738,
+          "predict_gt_unseen_mass": "0.5370"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=100 method=mi n=200",
+          "output": "unseen_mean=0.2501+-0.0124",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 100,
+          "metadata_method": "mi",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.25012165450121654,
+          "metadata_unseen_ci": 0.012367543784453098,
+          "predict_gt_unseen_mass": "0.2501"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=100 method=mi n=500",
+          "output": "unseen_mean=0.1112+-0.0062",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 100,
+          "metadata_method": "mi",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.11119221411192215,
+          "metadata_unseen_ci": 0.0062386933383242,
+          "predict_gt_unseen_mass": "0.1112"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=100 method=mi n=1000",
+          "output": "unseen_mean=0.0528+-0.0070",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 100,
+          "metadata_method": "mi",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.05279805352798052,
+          "metadata_unseen_ci": 0.007045744764335596,
+          "predict_gt_unseen_mass": "0.0528"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=100 method=freq n=50",
+          "output": "unseen_mean=0.5370+-0.0130",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 100,
+          "metadata_method": "freq",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.5369829683698296,
+          "metadata_unseen_ci": 0.012963923770984738,
+          "predict_gt_unseen_mass": "0.5370"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=100 method=freq n=200",
+          "output": "unseen_mean=0.2501+-0.0124",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 100,
+          "metadata_method": "freq",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.25012165450121654,
+          "metadata_unseen_ci": 0.012367543784453098,
+          "predict_gt_unseen_mass": "0.2501"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=100 method=freq n=500",
+          "output": "unseen_mean=0.1112+-0.0062",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 100,
+          "metadata_method": "freq",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.11119221411192215,
+          "metadata_unseen_ci": 0.0062386933383242,
+          "predict_gt_unseen_mass": "0.1112"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=100 method=freq n=1000",
+          "output": "unseen_mean=0.0528+-0.0070",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 100,
+          "metadata_method": "freq",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.05279805352798052,
+          "metadata_unseen_ci": 0.007045744764335596,
+          "predict_gt_unseen_mass": "0.0528"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=200 method=mi n=50",
+          "output": "unseen_mean=0.6519+-0.0112",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 200,
+          "metadata_method": "mi",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.651878787878788,
+          "metadata_unseen_ci": 0.011160643431264003,
+          "predict_gt_unseen_mass": "0.6519"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=200 method=mi n=200",
+          "output": "unseen_mean=0.3399+-0.0080",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 200,
+          "metadata_method": "mi",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.3398787878787879,
+          "metadata_unseen_ci": 0.007964484618815113,
+          "predict_gt_unseen_mass": "0.3399"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=200 method=mi n=500",
+          "output": "unseen_mean=0.1657+-0.0057",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 200,
+          "metadata_method": "mi",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.1656969696969697,
+          "metadata_unseen_ci": 0.005681276127678948,
+          "predict_gt_unseen_mass": "0.1657"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=200 method=mi n=1000",
+          "output": "unseen_mean=0.0781+-0.0048",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 200,
+          "metadata_method": "mi",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.07806060606060602,
+          "metadata_unseen_ci": 0.004787018871761862,
+          "predict_gt_unseen_mass": "0.0781"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=200 method=freq n=50",
+          "output": "unseen_mean=0.6519+-0.0112",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 200,
+          "metadata_method": "freq",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.651878787878788,
+          "metadata_unseen_ci": 0.011160643431264003,
+          "predict_gt_unseen_mass": "0.6519"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=200 method=freq n=200",
+          "output": "unseen_mean=0.3399+-0.0080",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 200,
+          "metadata_method": "freq",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.3398787878787879,
+          "metadata_unseen_ci": 0.007964484618815113,
+          "predict_gt_unseen_mass": "0.3399"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=200 method=freq n=500",
+          "output": "unseen_mean=0.1657+-0.0057",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 200,
+          "metadata_method": "freq",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.1656969696969697,
+          "metadata_unseen_ci": 0.005681276127678948,
+          "predict_gt_unseen_mass": "0.1657"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=200 method=freq n=1000",
+          "output": "unseen_mean=0.0781+-0.0048",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 200,
+          "metadata_method": "freq",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.07806060606060602,
+          "metadata_unseen_ci": 0.004787018871761862,
+          "predict_gt_unseen_mass": "0.0781"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=400 method=mi n=50",
+          "output": "unseen_mean=0.7626+-0.0082",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 400,
+          "metadata_method": "mi",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.7626099290780142,
+          "metadata_unseen_ci": 0.008205032500979858,
+          "predict_gt_unseen_mass": "0.7626"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=400 method=mi n=200",
+          "output": "unseen_mean=0.4765+-0.0101",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 400,
+          "metadata_method": "mi",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.4764822695035462,
+          "metadata_unseen_ci": 0.010099270125088444,
+          "predict_gt_unseen_mass": "0.4765"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=400 method=mi n=500",
+          "output": "unseen_mean=0.2652+-0.0052",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 400,
+          "metadata_method": "mi",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.26524822695035455,
+          "metadata_unseen_ci": 0.0052007445308210895,
+          "predict_gt_unseen_mass": "0.2652"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=400 method=mi n=1000",
+          "output": "unseen_mean=0.1389+-0.0037",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 400,
+          "metadata_method": "mi",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.13889361702127662,
+          "metadata_unseen_ci": 0.003680603017100385,
+          "predict_gt_unseen_mass": "0.1389"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=400 method=freq n=50",
+          "output": "unseen_mean=0.7626+-0.0082",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 400,
+          "metadata_method": "freq",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.7626099290780142,
+          "metadata_unseen_ci": 0.008205032500979858,
+          "predict_gt_unseen_mass": "0.7626"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=400 method=freq n=200",
+          "output": "unseen_mean=0.4765+-0.0101",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 400,
+          "metadata_method": "freq",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.4764822695035462,
+          "metadata_unseen_ci": 0.010099270125088444,
+          "predict_gt_unseen_mass": "0.4765"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=400 method=freq n=500",
+          "output": "unseen_mean=0.2652+-0.0052",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 400,
+          "metadata_method": "freq",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.26524822695035455,
+          "metadata_unseen_ci": 0.0052007445308210895,
+          "predict_gt_unseen_mass": "0.2652"
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=400 method=freq n=1000",
+          "output": "unseen_mean=0.1389+-0.0037",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 400,
+          "metadata_method": "freq",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.13889361702127662,
+          "metadata_unseen_ci": 0.003680603017100385,
+          "predict_gt_unseen_mass": "0.1389"
+        },
+        {
+          "input": "domain=sst2 pilot_n=100 method=mi n=50",
+          "output": "unseen_mean=0.6144+-0.0183",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 100,
+          "metadata_method": "mi",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.6143518518518518,
+          "metadata_unseen_ci": 0.01825477933172383,
+          "predict_gt_unseen_mass": "0.6144"
+        },
+        {
+          "input": "domain=sst2 pilot_n=100 method=mi n=200",
+          "output": "unseen_mean=0.3542+-0.0164",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 100,
+          "metadata_method": "mi",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.3541666666666667,
+          "metadata_unseen_ci": 0.016376486204663154,
+          "predict_gt_unseen_mass": "0.3542"
+        },
+        {
+          "input": "domain=sst2 pilot_n=100 method=mi n=500",
+          "output": "unseen_mean=0.2306+-0.0143",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 100,
+          "metadata_method": "mi",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.23055555555555554,
+          "metadata_unseen_ci": 0.014256902162084834,
+          "predict_gt_unseen_mass": "0.2306"
+        },
+        {
+          "input": "domain=sst2 pilot_n=100 method=mi n=1000",
+          "output": "unseen_mean=0.1093+-0.0223",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 100,
+          "metadata_method": "mi",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.10925925925925925,
+          "metadata_unseen_ci": 0.02228498851931269,
+          "predict_gt_unseen_mass": "0.1093"
+        },
+        {
+          "input": "domain=sst2 pilot_n=100 method=freq n=50",
+          "output": "unseen_mean=0.6144+-0.0183",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 100,
+          "metadata_method": "freq",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.6143518518518518,
+          "metadata_unseen_ci": 0.01825477933172383,
+          "predict_gt_unseen_mass": "0.6144"
+        },
+        {
+          "input": "domain=sst2 pilot_n=100 method=freq n=200",
+          "output": "unseen_mean=0.3542+-0.0164",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 100,
+          "metadata_method": "freq",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.3541666666666667,
+          "metadata_unseen_ci": 0.016376486204663154,
+          "predict_gt_unseen_mass": "0.3542"
+        },
+        {
+          "input": "domain=sst2 pilot_n=100 method=freq n=500",
+          "output": "unseen_mean=0.2306+-0.0143",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 100,
+          "metadata_method": "freq",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.23055555555555554,
+          "metadata_unseen_ci": 0.014256902162084834,
+          "predict_gt_unseen_mass": "0.2306"
+        },
+        {
+          "input": "domain=sst2 pilot_n=100 method=freq n=1000",
+          "output": "unseen_mean=0.1093+-0.0223",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 100,
+          "metadata_method": "freq",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.10925925925925925,
+          "metadata_unseen_ci": 0.02228498851931269,
+          "predict_gt_unseen_mass": "0.1093"
+        },
+        {
+          "input": "domain=sst2 pilot_n=200 method=mi n=50",
+          "output": "unseen_mean=0.7149+-0.0152",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 200,
+          "metadata_method": "mi",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.7149122807017544,
+          "metadata_unseen_ci": 0.015239950091567723,
+          "predict_gt_unseen_mass": "0.7149"
+        },
+        {
+          "input": "domain=sst2 pilot_n=200 method=mi n=200",
+          "output": "unseen_mean=0.4360+-0.0127",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 200,
+          "metadata_method": "mi",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.4359649122807017,
+          "metadata_unseen_ci": 0.012691527456950178,
+          "predict_gt_unseen_mass": "0.4360"
+        },
+        {
+          "input": "domain=sst2 pilot_n=200 method=mi n=500",
+          "output": "unseen_mean=0.2675+-0.0082",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 200,
+          "metadata_method": "mi",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.26754385964912275,
+          "metadata_unseen_ci": 0.008171512874194346,
+          "predict_gt_unseen_mass": "0.2675"
+        },
+        {
+          "input": "domain=sst2 pilot_n=200 method=mi n=1000",
+          "output": "unseen_mean=0.1612+-0.0155",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 200,
+          "metadata_method": "mi",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.16118421052631582,
+          "metadata_unseen_ci": 0.015463446905925375,
+          "predict_gt_unseen_mass": "0.1612"
+        },
+        {
+          "input": "domain=sst2 pilot_n=200 method=freq n=50",
+          "output": "unseen_mean=0.7149+-0.0152",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 200,
+          "metadata_method": "freq",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.7149122807017544,
+          "metadata_unseen_ci": 0.015239950091567723,
+          "predict_gt_unseen_mass": "0.7149"
+        },
+        {
+          "input": "domain=sst2 pilot_n=200 method=freq n=200",
+          "output": "unseen_mean=0.4360+-0.0127",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 200,
+          "metadata_method": "freq",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.4359649122807017,
+          "metadata_unseen_ci": 0.012691527456950178,
+          "predict_gt_unseen_mass": "0.4360"
+        },
+        {
+          "input": "domain=sst2 pilot_n=200 method=freq n=500",
+          "output": "unseen_mean=0.2675+-0.0082",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 200,
+          "metadata_method": "freq",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.26754385964912275,
+          "metadata_unseen_ci": 0.008171512874194346,
+          "predict_gt_unseen_mass": "0.2675"
+        },
+        {
+          "input": "domain=sst2 pilot_n=200 method=freq n=1000",
+          "output": "unseen_mean=0.1612+-0.0155",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 200,
+          "metadata_method": "freq",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.16118421052631582,
+          "metadata_unseen_ci": 0.015463446905925375,
+          "predict_gt_unseen_mass": "0.1612"
+        },
+        {
+          "input": "domain=sst2 pilot_n=400 method=mi n=50",
+          "output": "unseen_mean=0.8002+-0.0126",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 400,
+          "metadata_method": "mi",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.800209314495029,
+          "metadata_unseen_ci": 0.012552390444461096,
+          "predict_gt_unseen_mass": "0.8002"
+        },
+        {
+          "input": "domain=sst2 pilot_n=400 method=mi n=200",
+          "output": "unseen_mean=0.5537+-0.0101",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 400,
+          "metadata_method": "mi",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.5537414965986394,
+          "metadata_unseen_ci": 0.010064728988227255,
+          "predict_gt_unseen_mass": "0.5537"
+        },
+        {
+          "input": "domain=sst2 pilot_n=400 method=mi n=500",
+          "output": "unseen_mean=0.3585+-0.0119",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 400,
+          "metadata_method": "mi",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.358451072736787,
+          "metadata_unseen_ci": 0.011915610723116785,
+          "predict_gt_unseen_mass": "0.3585"
+        },
+        {
+          "input": "domain=sst2 pilot_n=400 method=mi n=1000",
+          "output": "unseen_mean=0.2343+-0.0102",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 400,
+          "metadata_method": "mi",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.23432757718472005,
+          "metadata_unseen_ci": 0.010189378020213458,
+          "predict_gt_unseen_mass": "0.2343"
+        },
+        {
+          "input": "domain=sst2 pilot_n=400 method=freq n=50",
+          "output": "unseen_mean=0.8002+-0.0126",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 400,
+          "metadata_method": "freq",
+          "metadata_n": 50,
+          "metadata_unseen_mean": 0.800209314495029,
+          "metadata_unseen_ci": 0.012552390444461096,
+          "predict_gt_unseen_mass": "0.8002"
+        },
+        {
+          "input": "domain=sst2 pilot_n=400 method=freq n=200",
+          "output": "unseen_mean=0.5537+-0.0101",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 400,
+          "metadata_method": "freq",
+          "metadata_n": 200,
+          "metadata_unseen_mean": 0.5537414965986394,
+          "metadata_unseen_ci": 0.010064728988227255,
+          "predict_gt_unseen_mass": "0.5537"
+        },
+        {
+          "input": "domain=sst2 pilot_n=400 method=freq n=500",
+          "output": "unseen_mean=0.3585+-0.0119",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 400,
+          "metadata_method": "freq",
+          "metadata_n": 500,
+          "metadata_unseen_mean": 0.358451072736787,
+          "metadata_unseen_ci": 0.011915610723116785,
+          "predict_gt_unseen_mass": "0.3585"
+        },
+        {
+          "input": "domain=sst2 pilot_n=400 method=freq n=1000",
+          "output": "unseen_mean=0.2343+-0.0102",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 400,
+          "metadata_method": "freq",
+          "metadata_n": 1000,
+          "metadata_unseen_mean": 0.23432757718472005,
+          "metadata_unseen_ci": 0.010189378020213458,
+          "predict_gt_unseen_mass": "0.2343"
+        }
+      ]
+    },
+    {
+      "dataset": "cross_domain_predictions",
+      "examples": [
+        {
+          "input": "calibrate_on=rotten_tomatoes predict_on=sst2",
+          "output": "n_hat_star=None n_true_star=None within_2x=None",
+          "metadata_n_hat_star": null,
+          "metadata_n_true_star": null,
+          "metadata_within_2x": null,
+          "metadata_tau": null,
+          "metadata_note": "skipped: rotten_tomatoes has no finite empirical crossover",
+          "metadata_calibrate_on": "rotten_tomatoes",
+          "metadata_predict_on": "sst2",
+          "predict_n_hat_star": "None"
+        },
+        {
+          "input": "calibrate_on=sst2 predict_on=rotten_tomatoes",
+          "output": "n_hat_star=None n_true_star=None within_2x=None",
+          "metadata_n_hat_star": null,
+          "metadata_n_true_star": null,
+          "metadata_within_2x": null,
+          "metadata_tau": null,
+          "metadata_note": "skipped: sst2 has no finite empirical crossover",
+          "metadata_calibrate_on": "sst2",
+          "metadata_predict_on": "rotten_tomatoes",
+          "predict_n_hat_star": "None"
+        }
+      ]
+    },
+    {
+      "dataset": "pilot_and_vocab_ablation",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes pilot_n=100 method=mi",
+          "output": "tau_self=None",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 100,
+          "metadata_method": "mi",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=100 method=freq",
+          "output": "tau_self=None",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 100,
+          "metadata_method": "freq",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=200 method=mi",
+          "output": "tau_self=None",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 200,
+          "metadata_method": "mi",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=200 method=freq",
+          "output": "tau_self=None",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 200,
+          "metadata_method": "freq",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=400 method=mi",
+          "output": "tau_self=None",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 400,
+          "metadata_method": "mi",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=rotten_tomatoes pilot_n=400 method=freq",
+          "output": "tau_self=None",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_pilot_n": 400,
+          "metadata_method": "freq",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=sst2 pilot_n=100 method=mi",
+          "output": "tau_self=None",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 100,
+          "metadata_method": "mi",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=sst2 pilot_n=100 method=freq",
+          "output": "tau_self=None",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 100,
+          "metadata_method": "freq",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=sst2 pilot_n=200 method=mi",
+          "output": "tau_self=None",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 200,
+          "metadata_method": "mi",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=sst2 pilot_n=200 method=freq",
+          "output": "tau_self=None",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 200,
+          "metadata_method": "freq",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=sst2 pilot_n=400 method=mi",
+          "output": "tau_self=None",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 400,
+          "metadata_method": "mi",
+          "metadata_tau_self": null
+        },
+        {
+          "input": "domain=sst2 pilot_n=400 method=freq",
+          "output": "tau_self=None",
+          "metadata_domain": "sst2",
+          "metadata_pilot_n": 400,
+          "metadata_method": "freq",
+          "metadata_tau_self": null
+        }
+      ]
+    },
+    {
+      "dataset": "gap_vs_unseen_correlations",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes",
+          "output": "rho=0.10540925533894598 pval=0.894590744661054",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_rho": 0.10540925533894598,
+          "metadata_pval": 0.894590744661054,
+          "metadata_n_points": 4
+        },
+        {
+          "input": "domain=sst2",
+          "output": "rho=-0.19999999999999998 pval=0.8",
+          "metadata_domain": "sst2",
+          "metadata_rho": -0.19999999999999998,
+          "metadata_pval": 0.8,
+          "metadata_n_points": 4
+        }
+      ]
+    },
+    {
+      "dataset": "summary",
+      "examples": [
+        {
+          "input": "overall_verdict",
+          "output": "DISCONFIRMED",
+          "metadata_verdict": "DISCONFIRMED",
+          "metadata_domains_used": [
+            "rotten_tomatoes",
+            "sst2"
+          ],
+          "metadata_ns_used": [
+            50,
+            200,
+            500,
+            1000
+          ],
+          "metadata_seeds_used": [
+            0,
+            1
+          ],
+          "metadata_n_domains": 2,
+          "metadata_n_cross_domain_pairs": 2,
+          "metadata_degradations_applied": [
+            "reduced to 2 domains: ['rotten_tomatoes', 'sst2']",
+            "skipped 1 runs mid-sweep due to running time budget: [('rotten_tomatoes', 1000, 1)]..."
+          ],
+          "metadata_total_wallclock_s": 1665.1603889465332
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "method_name": "tfidf_vs_distilbert_crossover_with_gt_predictor",
+    "description": "Empirical accuracy-vs-n crossover between TF-IDF+LR and CPU-fine-tuned DistilBERT, plus a label-free Good-Turing/Chao1 unseen-vocabulary-mass predictor of that crossover, tested for cross-domain trans...",
+    "parameters": {
+      "NS": [
+        50,
+        200,
+        500
+      ],
+      "SEEDS": [
+        0,
+        1
+      ],
+      "DOMAINS": [
+        "rotten_tomatoes",
+        "sst2"
+      ],
+      "PILOT_NS": [
+        100,
+        200,
+        400
+      ],
+      "VOCAB_METHODS": [
+        "mi",
+        "freq"
+      ],
+      "MAX_LEN": 64,
+      "TEST_N": 800
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "raw_results",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes n=50 seed=0",
+          "output": "acc_tfidf=0.5413 acc_distilbert=0.6525",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 50,
+          "metadata_seed": 0,
+          "metadata_acc_tfidf": 0.54125,
+          "metadata_acc_distilbert": 0.6525,
+          "metadata_db_train_secs": 20.329676389694214,
+          "predict_tfidf_lr_acc": "0.5413",
+          "predict_distilbert_acc": "0.6525"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=50 seed=1",
+          "output": "acc_tfidf=0.5312 acc_distilbert=0.7250",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 50,
+          "metadata_seed": 1,
+          "metadata_acc_tfidf": 0.53125,
+          "metadata_acc_distilbert": 0.725,
+          "metadata_db_train_secs": 27.481956958770752,
+          "predict_tfidf_lr_acc": "0.5312",
+          "predict_distilbert_acc": "0.7250"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=200 seed=0",
+          "output": "acc_tfidf=0.5988 acc_distilbert=0.7987",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 200,
+          "metadata_seed": 0,
+          "metadata_acc_tfidf": 0.59875,
+          "metadata_acc_distilbert": 0.79875,
+          "metadata_db_train_secs": 93.5441300868988,
+          "predict_tfidf_lr_acc": "0.5988",
+          "predict_distilbert_acc": "0.7987"
+        }
+      ]
+    },
+    {
+      "dataset": "accuracy_curve",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes n=50",
+          "output": "mean_tfidf=0.5363+-0.0098 mean_db=0.6887+-0.0711 gap=0.1525",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 50,
+          "metadata_mean_tfidf": 0.53625,
+          "metadata_ci_tfidf": 0.009800000000000008,
+          "metadata_mean_db": 0.68875,
+          "metadata_ci_db": 0.07105,
+          "metadata_gap": 0.15249999999999997,
+          "metadata_n_seeds": 2,
+          "predict_tfidf_lr_mean_acc": "0.5363",
+          "predict_distilbert_mean_acc": "0.6887"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=200",
+          "output": "mean_tfidf=0.6056+-0.0135 mean_db=0.8069+-0.0159 gap=0.2012",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 200,
+          "metadata_mean_tfidf": 0.6056250000000001,
+          "metadata_ci_tfidf": 0.013475000000000037,
+          "metadata_mean_db": 0.806875,
+          "metadata_ci_db": 0.015924999999999984,
+          "metadata_gap": 0.20124999999999993,
+          "metadata_n_seeds": 2,
+          "predict_tfidf_lr_mean_acc": "0.6056",
+          "predict_distilbert_mean_acc": "0.8069"
+        },
+        {
+          "input": "domain=rotten_tomatoes n=500",
+          "output": "mean_tfidf=0.6444+-0.0135 mean_db=0.8325+-0.0147 gap=0.1881",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n": 500,
+          "metadata_mean_tfidf": 0.6443749999999999,
+          "metadata_ci_tfidf": 0.013475000000000037,
+          "metadata_mean_db": 0.8325,
+          "metadata_ci_db": 0.014700000000000012,
+          "metadata_gap": 0.1881250000000001,
+          "metadata_n_seeds": 2,
+          "predict_tfidf_lr_mean_acc": "0.6444",
+          "predict_distilbert_mean_acc": "0.8325"
+        }
+      ]
+    },
+    {
+      "dataset": "true_crossovers",
+      "examples": [
+        {
+          "input": "domain=rotten_tomatoes",
+          "output": "n_star=None direction=distilbert_ahead_at_all_tested_n",
+          "metadata_domain": "rotten_tomatoes",
+          "metadata_n_star": null,
+          "metadata_direction": "distilbert_ahead_at_all_tested_n",
+          "predict_empirical_crossover_n": "None"
+        },
+        {
+          "input": "domain=sst2",
+          "output": "n_star=None direction=distilbert_ahead_at_all_tested_n",
+          "metadata_domain": "sst2",
+          "metadata_n_star": null,
+          "metadata_direction": "distilbert_ahead_at_all_tested_n",
+          "predict_empirical_crossover_n": "None"
+        }
+      ]
+    }
+  ]
+}
