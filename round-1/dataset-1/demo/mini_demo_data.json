@@ -1,0 +1,679 @@
+{
+  "train_sizes": [
+    10,
+    20,
+    40
+  ],
+  "val": [
+    {
+      "text": "you see robert de niro singing - and dancing to - west side story show tunes . choose your reaction : a . ) that sure is funny ! b . ) that sure is pathetic !",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "val"
+    },
+    {
+      "text": "a charmer from belgium .",
+      "label": 1,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "val"
+    },
+    {
+      "text": "a big-budget/all-star movie as unblinkingly pure as the hours is a distinct rarity , and an event .",
+      "label": 1,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "val"
+    },
+    {
+      "text": "morton uses her face and her body language to bring us morvern's soul , even though the character is almost completely deadpan .",
+      "label": 1,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "val"
+    },
+    {
+      "text": ". . . a vivid , thoughtful , unapologetically raw coming-of-age tale full of sex , drugs and rock 'n' roll .",
+      "label": 1,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "val"
+    },
+    {
+      "text": "the cumulative effect of the movie is repulsive and depressing .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "val"
+    },
+    {
+      "text": "busy urban comedy is clearly not zhang's forte , his directorial touch is neither light nor magical enough to bring off this kind of whimsy .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "val"
+    },
+    {
+      "text": "a movie that hovers somewhere between an acute character study and a trite power struggle .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "val"
+    }
+  ],
+  "test": [
+    {
+      "text": "usually when i get this much syrup , i like pancakes to go with it .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "test"
+    },
+    {
+      "text": "a stylish thriller .",
+      "label": 1,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "test"
+    },
+    {
+      "text": "the dramatic scenes are frequently unintentionally funny , and the action sequences -- clearly the main event -- are surprisingly uninvolving .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "test"
+    },
+    {
+      "text": "though it inspires some ( out-of-field ) creative thought , the film is -- to its own detriment -- much more a cinematic collage than a polemical tract .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "test"
+    },
+    {
+      "text": "spain's greatest star wattage doesn't overcome the tumult of maudlin tragedy .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "test"
+    },
+    {
+      "text": "those who are only mildly curious , i fear , will be put to sleep or bewildered by the artsy and often pointless visuals .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "test"
+    },
+    {
+      "text": "first-time writer-director dylan kidd also has a good ear for dialogue , and the characters sound like real people .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "test"
+    },
+    {
+      "text": "if you really want to understand what this story is really all about , you're far better served by the source material .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "test"
+    }
+  ],
+  "unlabeled_pool": [
+    {
+      "text": "this filmed tosca -- not the first , by the way -- is a pretty good job , if it's filmed tosca that you want . i'll stay with the stage versions , however , which bite cleaner , and deeper .",
+      "label": 1,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "unlabeled_pool"
+    },
+    {
+      "text": "frailty isn't as gory or explicit . but in its child-centered , claustrophobic context , it can be just as frightening and disturbing -- even punishing .",
+      "label": 1,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "unlabeled_pool"
+    },
+    {
+      "text": "without resorting to hyperbole , i can state that kissing jessica stein may be the best same-sex romance i have seen .",
+      "label": 1,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "unlabeled_pool"
+    },
+    {
+      "text": "a film that will enthrall the whole family .",
+      "label": 1,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "unlabeled_pool"
+    },
+    {
+      "text": "the movie is as far as you can get from racy , to the point where it almost stops the blood flow to your brain ; it has a dull , costumey feel .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "unlabeled_pool"
+    },
+    {
+      "text": "a witty , whimsical feature debut .",
+      "label": 1,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "unlabeled_pool"
+    },
+    {
+      "text": "boasting some of the most poorly staged and lit action in memory , impostor is as close as you can get to an imitation movie .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "unlabeled_pool"
+    },
+    {
+      "text": "painfully padded .",
+      "label": 0,
+      "domain": "rotten_tomatoes",
+      "lineage_group": "pang_lee_lineage",
+      "split": "unlabeled_pool"
+    }
+  ],
+  "train": {
+    "10": [
+      {
+        "text": "a triumph , relentless and beautiful in its downbeat darkness .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "it's hard to imagine any recent film , independent or otherwise , that makes as much of a mess as this one .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "stripped almost entirely of such tools as nudity , profanity and violence , labute does manage to make a few points about modern man and his problematic quest for human connection .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "it's hard to fairly judge a film like ringu when you've seen the remake first . many of the effective horror elements are dampened through familiarity , [yet] are worthwhile .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "wildly incompetent but brilliantly named half past dead -- or for seagal pessimists : totally past his prime .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "this bond film goes off the beaten path , not necessarily for the better .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "late marriage's stiffness is unlikely to demonstrate the emotional clout to sweep u . s . viewers off their feet .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "despite the surface attractions -- conrad l . hall's cinematography will likely be nominated for an oscar next year -- there's something impressive and yet lacking about everything .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "a breezy , diverting , conventional , well-acted tale of two men locked in an ongoing game of cat-and-cat .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "it's all gratuitous before long , as if schwentke were fulfilling a gross-out quota for an anticipated audience demographic instead of shaping the material to fit the story .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      }
+    ],
+    "20": [
+      {
+        "text": "a triumph , relentless and beautiful in its downbeat darkness .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "it's hard to imagine any recent film , independent or otherwise , that makes as much of a mess as this one .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "stripped almost entirely of such tools as nudity , profanity and violence , labute does manage to make a few points about modern man and his problematic quest for human connection .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "it's hard to fairly judge a film like ringu when you've seen the remake first . many of the effective horror elements are dampened through familiarity , [yet] are worthwhile .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "wildly incompetent but brilliantly named half past dead -- or for seagal pessimists : totally past his prime .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "this bond film goes off the beaten path , not necessarily for the better .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "late marriage's stiffness is unlikely to demonstrate the emotional clout to sweep u . s . viewers off their feet .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "despite the surface attractions -- conrad l . hall's cinematography will likely be nominated for an oscar next year -- there's something impressive and yet lacking about everything .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "a breezy , diverting , conventional , well-acted tale of two men locked in an ongoing game of cat-and-cat .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "it's all gratuitous before long , as if schwentke were fulfilling a gross-out quota for an anticipated audience demographic instead of shaping the material to fit the story .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "a turgid little history lesson , humourless and dull .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "a preposterously melodramatic paean to gang-member teens in brooklyn circa 1958 .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "never inspires more than an interested detachment .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "there's not much to fatale , outside of its stylish surprises . . . but that's ok .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "what better message than 'love thyself' could young women of any size receive ?",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "nakata's technique is to imply terror by suggestion , rather than the overuse of special effects .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "fans of critics' darling band wilco will marvel at the sometimes murky , always brooding look of i am trying to break your heart .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "visually striking and viscerally repellent .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "includes too much obvious padding .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "a lovably old-school hollywood confection .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      }
+    ],
+    "40": [
+      {
+        "text": "a triumph , relentless and beautiful in its downbeat darkness .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "it's hard to imagine any recent film , independent or otherwise , that makes as much of a mess as this one .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "stripped almost entirely of such tools as nudity , profanity and violence , labute does manage to make a few points about modern man and his problematic quest for human connection .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "it's hard to fairly judge a film like ringu when you've seen the remake first . many of the effective horror elements are dampened through familiarity , [yet] are worthwhile .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "wildly incompetent but brilliantly named half past dead -- or for seagal pessimists : totally past his prime .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "this bond film goes off the beaten path , not necessarily for the better .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "late marriage's stiffness is unlikely to demonstrate the emotional clout to sweep u . s . viewers off their feet .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "despite the surface attractions -- conrad l . hall's cinematography will likely be nominated for an oscar next year -- there's something impressive and yet lacking about everything .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "a breezy , diverting , conventional , well-acted tale of two men locked in an ongoing game of cat-and-cat .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "it's all gratuitous before long , as if schwentke were fulfilling a gross-out quota for an anticipated audience demographic instead of shaping the material to fit the story .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n50"
+      },
+      {
+        "text": "a turgid little history lesson , humourless and dull .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "a preposterously melodramatic paean to gang-member teens in brooklyn circa 1958 .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "never inspires more than an interested detachment .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "there's not much to fatale , outside of its stylish surprises . . . but that's ok .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "what better message than 'love thyself' could young women of any size receive ?",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "nakata's technique is to imply terror by suggestion , rather than the overuse of special effects .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "fans of critics' darling band wilco will marvel at the sometimes murky , always brooding look of i am trying to break your heart .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "visually striking and viscerally repellent .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "includes too much obvious padding .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "a lovably old-school hollywood confection .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n100"
+      },
+      {
+        "text": "eyre is on his way to becoming the american indian spike lee .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "too bad kramer couldn't make a guest appearance to liven things up .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "the problem is not that it's all derivative , because plenty of funny movies recycle old tropes . the problem is that van wilder does little that is actually funny with the material .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "you're not merely watching history , you're engulfed by it .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "michele is a such a brainless flibbertigibbet that it's hard to take her spiritual quest at all seriously .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "great story , bad idea for a movie .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "a bloated gasbag thesis grotesquely impressed by its own gargantuan aura of self-importance . . .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "skip this turd and pick your nose instead because you're sure to get more out of the latter experience .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "you wouldn't want to live waydowntown , but it is a hilarious place to visit .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "it gives devastating testimony to both people's capacity for evil and their heroic capacity for good .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "the film falls short on tension , eloquence , spiritual challenge -- things that have made the original new testament stories so compelling for 20 centuries .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "[i]f you've been to more than one indie flick in your life , chances are you've already seen this kind of thing .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "a backhanded ode to female camaraderie penned by a man who has little clue about either the nature of women or of friendship .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "its premise is smart , but the execution is pretty weary .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "writer-director stephen gaghan has made the near-fatal mistake of being what the english call 'too clever by half . '",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "[broomfield] uncovers a story powerful enough to leave the screen sizzling with intrigue .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "a funny and touching film that is gorgeously acted by a british cast to rival gosford park's .",
+        "label": 1,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "'[hopkins]doesn't so much phone in his performance as fax it . no , even that's too committed . he gets his secretary to fax it . \"",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "hey arnold ! is now stretched to barely feature length , with a little more attention paid to the animation . still , the updated dickensian sensibility of writer craig bartlett's story is appealing .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      },
+      {
+        "text": "limps along on a squirm-inducing fish-out-of-water formula that goes nowhere and goes there very , very slowly .",
+        "label": 0,
+        "domain": "rotten_tomatoes",
+        "lineage_group": "pang_lee_lineage",
+        "split": "train_n200"
+      }
+    ]
+  }
+}
